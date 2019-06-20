@@ -339,3 +339,67 @@ span.infobox_rate {
 .user-option{
     min-width: 190px;
 }
+.mb--30{
+    margin-bottom: -30px;
+}
+.product-reviews-summary{
+    margin-top: 11px;
+}
+.restaurant-media-con .product-reviews-summary {
+    margin-top: 10px;
+}
+.product-reviews-summary .rating-summary {
+    position: relative;
+}
+.restaurant-media-con .rating-summary .rating-result {
+    width: 139px;
+}
+.restaurant-media-con .rating-result {
+    margin-left: 0;
+}
+.rating-summary .rating-result {
+    margin-left: 5px;
+    width: 139px;
+    position: relative;
+}
+.restaurant-media-con .rating-summary .rating-result:before, .restaurant-media-con .rating-summary .rating-result > span:before {
+    font-size: 20px;
+    height: 25px;
+}
+.rating-summary .rating-result:before {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+    z-index: 1;
+    color: #c7c7c7;
+    font-size: 24px;
+    height: 27px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    content: '\f005' '\f005' '\f005' '\f005' '\f005';
+    display: block;
+    font-style: normal;
+    speak: none;
+}
+.rating-summary .rating-result > span {
+    display: block;
+    overflow: hidden;
+}
+.rating-summary .rating-result > span:before {
+    position: relative;
+    z-index: 2;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #fea800;
+    font-size: 24px;
+    height: 27px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    content: '\f005' '\f005' '\f005' '\f005' '\f005';
+    display: block;
+    font-style: normal;
+    speak: none;
+}

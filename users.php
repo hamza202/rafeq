@@ -129,7 +129,6 @@
                         </div>
                     </div>
                     <div class="m-portlet__body">
-
                         <!--begin: Datatable -->
                         <div class="table-responsive-xl">
                             <table class="table table-striped- table-bordered table-hover table-checkable"
@@ -165,7 +164,7 @@
                                             <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                data-target="#m_modal_5"><i
                                                         class="la la-check"></i> تفعيل  </a>
-                                              <a class="dropdown-item" href="reservations.php">
+                                              <a class="dropdown-item" href="user-services.php">
                                                    <i class="la la-calendar-check-o"></i> الحجوزات</a>
                                             <a class="dropdown-item" href="#">
                                                    <i class="flaticon-statistics"></i> الدفعات</a>
@@ -202,7 +201,7 @@
                                             <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
                                                data-target="#m_modal_3"><i
                                                         class="la la-power-off"></i> تعطيل  </a>
-                                             <a class="dropdown-item" href="reservations.php">
+                                             <a class="dropdown-item" href="user-services.php">
                                                    <i class="la la-calendar-check-o"></i> الحجوزات</a>
                                             <a class="dropdown-item" href="#">
                                                    <i class="flaticon-statistics"></i> الدفعات</a>
@@ -241,7 +240,7 @@
                                             <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
                                                data-target="#m_modal_3"><i
                                                         class="la la-power-off"></i> تعطيل  </a>
-                                             <a class="dropdown-item" href="reservations.php">
+                                             <a class="dropdown-item" href="user-services.php">
                                                    <i class="la la-calendar-check-o"></i> الحجوزات</a>
                                             <a class="dropdown-item" href="#">
                                                    <i class="flaticon-statistics"></i> الدفعات</a>

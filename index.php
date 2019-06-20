@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>مضيافي | احصائيات</title>
+    <title>رفيق | احصائيات</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -111,7 +111,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">احصائيات مضيافي</h3>
+                        <h3 class="m-subheader__title ">احصائيات رفيق</h3>
                     </div>
                 </div>
             </div>
@@ -122,13 +122,12 @@
                 <div class="m-portlet pb-3 pt-3 my-statistics">
                     <div class="m-portlet__body  m-portlet__body--no-padding">
                         <div class="row m-row--no-padding m-row--col-separator-xl">
-                            <div class="col-md-12 col-lg-6 col-xl-4">
-
+                            <div class="col-lg-6 col-xl-3">
                                 <!--begin::Total Profit-->
                                 <div class="m-widget24">
                                     <div class="m-widget24__item">
                                         <h4 class="m-widget24__title">
-                                             المستخدميين
+                                             الركاب
                                         </h4><br>
                                         <span class="m-widget24__stats m--font-brand">
 													1411
@@ -143,13 +142,12 @@
 
                                 <!--end::Total Profit-->
                             </div>
-                            <div class="col-md-12 col-lg-6 col-xl-4">
-
+                            <div class="col-lg-6 col-xl-3">
                                 <!--begin::New Feedbacks-->
                                 <div class="m-widget24">
                                     <div class="m-widget24__item">
                                         <h4 class="m-widget24__title">
-                                            مزودي الخدمة
+                                            السائقين
                                         </h4><br>
                                         <span class="m-widget24__stats m--font-info">
 													1349
@@ -164,13 +162,12 @@
 
                                 <!--end::New Feedbacks-->
                             </div>
-                            <div class="col-md-12 col-lg-6 col-xl-4">
-
+                            <div class="col-lg-6 col-xl-3">
                                 <!--begin::New Orders-->
                                 <div class="m-widget24">
                                     <div class="m-widget24__item">
                                         <h4 class="m-widget24__title">
-                                            العقارات
+                                            الحجوزات
                                         </h4><br>
                                         <span class="m-widget24__stats m--font-danger">
 													567
@@ -185,13 +182,12 @@
 
                                 <!--end::New Orders-->
                             </div>
-                            <div class="col-md-12 col-lg-6 col-xl-4">
-
+                            <div class="col-lg-6 col-xl-3">
                                 <!--begin::New Users-->
                                 <div class="m-widget24">
                                     <div class="m-widget24__item">
                                         <h4 class="m-widget24__title">
-                                            عدد طلبات الحجز
+                                            الرحلات
                                         </h4><br>
                                         <span class="m-widget24__stats m--font-success">
 													276
@@ -204,46 +200,6 @@
                                     </div>
                                 </div>
 
-                                <!--end::New Users-->
-                            </div>
-                            <div class="col-md-12 col-lg-6 col-xl-4">
-                                <!--begin::New Users-->
-                                <div class="m-widget24">
-                                    <div class="m-widget24__item">
-                                        <h4 class="m-widget24__title">
-                                            عدد الحجوزات
-                                        </h4><br>
-
-                                        <span class="m-widget24__stats m--font-metal">
-													276
-												</span>
-                                        <div class="m--space-10"></div>
-                                        <div class="progress m-progress--sm">
-                                            <div class="progress-bar m--bg-metal" role="progressbar" style="width: 100%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <!--end::New Users-->
-                            </div>
-                            <div class="col-md-12 col-lg-6 col-xl-4">
-                                <!--begin::New Users-->
-                                <div class="m-widget24">
-                                    <div class="m-widget24__item">
-                                        <h4 class="m-widget24__title">
-                                            الدفعات المالية
-                                        </h4><br>
-
-                                        <span class="m-widget24__stats m--font-warning">
-													276
-												</span>
-                                        <div class="m--space-10"></div>
-                                        <div class="progress m-progress--sm">
-                                            <div class="progress-bar m--bg-warning" role="progressbar" style="width: 100%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-
-                                    </div>
-                                </div>
                                 <!--end::New Users-->
                             </div>
                         </div>

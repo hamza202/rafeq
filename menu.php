@@ -16,15 +16,65 @@
             </li>
             <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
                 <a href="users.php" class="m-menu__link m-menu__toggle">
-                    <i class="m-menu__link-icon flaticon-user">
+                    <i class="m-menu__link-icon fa fa-user">
                     </i><span class="m-menu__link-text">المستخدمين</span>
                 </a>
 
             </li>
+            <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
+                <a href="users.php" class="m-menu__link m-menu__toggle">
+                    <i class="m-menu__link-icon fa fa-user-tie">
+                    </i><span class="m-menu__link-text">السائقين</span>
+                </a>
+
+            </li>
+            <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
+                <a href="users.php" class="m-menu__link m-menu__toggle">
+                    <i class="m-menu__link-icon fa fa-car">
+                    </i><span class="m-menu__link-text">المركبات</span>
+                </a>
+
+            </li>
+            <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover">
+                <a href="message.php" class="m-menu__link m-menu__toggle">
+                    <i class="m-menu__link-icon flaticon-multimedia-2">
+                    </i>
+                    <span class="m-menu__link-title">
+                        <span class="m-menu__link-wrap"> <span class="m-menu__link-text">رسائل</span>
+							<span class="m-menu__link-badge"><span class="m-badge m-badge--danger">5</span></span>
+                        </span>
+                    </span>
+                </a>
+
+            </li>
+            <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
+                <a href="users.php" class="m-menu__link m-menu__toggle">
+                    <i class="m-menu__link-icon fa fa-ban">
+                    </i><span class="m-menu__link-text">الحجوزات</span>
+                </a>
+            </li>
+            <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
+                <a href="users.php" class="m-menu__link m-menu__toggle">
+                    <i class="m-menu__link-icon fa fa-coins">
+                    </i><span class="m-menu__link-text">الدفعات</span>
+                </a>
+            </li>
+            <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
+                <a href="users.php" class="m-menu__link m-menu__toggle">
+                    <i class="m-menu__link-icon fa 	fa-clipboard-list">
+                    </i><span class="m-menu__link-text">طلبات السائقين</span>
+                </a>
+            </li>
+            <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
+                <a href="users.php" class="m-menu__link m-menu__toggle">
+                    <i class="m-menu__link-icon fab fa-fly">
+                    </i><span class="m-menu__link-text">الرحلات</span>
+                </a>
+            </li>
             <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a
                         href="javascript:;" class="m-menu__link m-menu__toggle"><i
-                            class="m-menu__link-icon la la-cubes
-"></i><span class="m-menu__link-text">ثوابت</span><i
+                            class="m-menu__link-icon flaticon-cogwheel-2
+                            "></i><span class="m-menu__link-text">ثوابت</span><i
                             class="m-menu__ver-arrow la la-angle-right"></i></a>
                 <div class="m-menu__submenu "><span class="m-menu__arrow"></span>
                     <ul class="m-menu__subnav">
@@ -46,18 +96,7 @@
                 </div>
             </li>
 
-            <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover">
-                <a href="message.php" class="m-menu__link m-menu__toggle">
-                    <i class="m-menu__link-icon flaticon-multimedia-2">
-                    </i>
-                    <span class="m-menu__link-title">
-                        <span class="m-menu__link-wrap"> <span class="m-menu__link-text">رسائل</span>
-							<span class="m-menu__link-badge"><span class="m-badge m-badge--danger">5</span></span>
-                        </span>
-                    </span>
-                </a>
 
-            </li>
         </ul>
     </div>
 
