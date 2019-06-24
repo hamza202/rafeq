@@ -107,15 +107,6 @@
         <!-- END: Left Aside -->
         <div class="m-grid__item m-grid__item--fluid m-wrapper">
 
-            <!-- BEGIN: Subheader -->
-            <div class="m-subheader ">
-                <div class="d-flex align-items-center">
-                    <div class="mr-auto">
-                        <h3 class="m-subheader__title ">المستخدمين</h3>
-                    </div>
-                </div>
-            </div>
-
             <!-- END: Subheader -->
             <div class="m-content">
                 <div class="m-portlet m-portlet--mobile">
@@ -123,7 +114,7 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    ادارة المستخدميين
+                                    مركبات السائق
                                 </h3>
                             </div>
                         </div>
@@ -136,10 +127,11 @@
                                 <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>اسم المستخدم</th>
-                                    <th>رقم جوال</th>
-                                    <th>المدينة</th>
-                                    <th>نوع الراكب</th>
+                                    <th>نوع المركبة</th>
+                                    <th>موديل المركبة</th>
+                                    <th>رقم لوحة المركبة</th>
+                                    <th>سنة الصنع</th>
+                                    <th>عدد المقاعد</th>
                                     <th>الحالة</th>
                                     <th>عمليات</th>
                                     <th>تفاصيل</th>
@@ -148,10 +140,11 @@
                                 <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>حمزة ابو عيطة</td>
-                                    <td>0595779009</td>
-                                    <td>المدينة</td>
-                                    <td>نوع الراكب</td>
+                                    <td>نوع المركبة</td>
+                                    <td>موديل المركبة</td>
+                                    <td>123456</td>
+                                    <td>سنة الصنع</td>
+                                    <td>عدد المقاعد</td>
                                     <td><span class="m-badge  m-badge--success m-badge--wide">مفعل</span></td>
                                     <td>
                                      <span class="dropdown user-option">
@@ -164,20 +157,11 @@
                                             <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                data-target="#m_modal_5"><i
                                                         class="la la-check"></i> تفعيل  </a>
-                                              <a class="dropdown-item" href="user-services.php">
-                                                   <i class="la la-calendar-check-o"></i> الحجوزات</a>
-                                            <a class="dropdown-item" href="payments.php">
-                                                   <i class="flaticon-statistics"></i> الدفعات</a>
-                                              <a class="dropdown-item" href="user-message.php">
-                                                   <i class="la la-comment-o"></i> رسائل المستخدم</a>
-                                            <a class="dropdown-item" href="#m_modal_4" data-toggle="modal"
-                                               data-target="#m_modal_4">
-                                                   <i class="flaticon-multimedia-2"></i> ارسال رسالة</a>
                                         </div>
                                     </span>
                                     </td>
                                     <td>
-                                        <a href="user-profile.php"
+                                        <a href="driver-car-details.php"
                                            class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
                                             <i class="far fa-eye"></i>
                                         </a>
@@ -185,10 +169,11 @@
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>حمزة ابو عيطة</td>
-                                    <td>0595779009</td>
-                                    <td>المدينة</td>
-                                    <td>نوع الراكب</td>
+                                    <td>نوع المركبة</td>
+                                    <td>موديل المركبة</td>
+                                    <td>123456</td>
+                                    <td>سنة الصنع</td>
+                                    <td>عدد المقاعد</td>
                                     <td><span class="m-badge  m-badge--danger m-badge--wide">معطل</span></td>
                                     <td>
                                      <span class="dropdown user-option">
@@ -201,33 +186,24 @@
                                             <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
                                                data-target="#m_modal_3"><i
                                                         class="la la-power-off"></i> تعطيل  </a>
-                                             <a class="dropdown-item" href="user-services.php">
-                                                   <i class="la la-calendar-check-o"></i> الحجوزات</a>
-                                            <a class="dropdown-item" href="payments.php">
-                                                   <i class="flaticon-statistics"></i> الدفعات</a>
-                                              <a class="dropdown-item" href="user-message.php">
-                                                   <i class="la la-comment-o"></i> رسائل المستخدم</a>
-                                            <a class="dropdown-item" href="#m_modal_4" data-toggle="modal"
-                                               data-target="#m_modal_4">
-                                                   <i class="la flaticon-multimedia-2"></i> ارسال رسالة</a>
-
 
                                         </div>
                                     </span>
                                     </td>
                                     <td>
-                                        <a href="user-profile.php"
+                                        <a href="driver-car-details.php"
                                            class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
                                             <i class="far fa-eye"></i>
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>1</td>
-                                    <td>حمزة ابو عيطة</td>
-                                    <td>0595779009</td>
-                                    <td>المدينة</td>
-                                    <td>نوع الراكب</td>
+                                    <td>3</td>
+                                    <td>نوع المركبة</td>
+                                    <td>موديل المركبة</td>
+                                    <td>123456</td>
+                                    <td>سنة الصنع</td>
+                                    <td>عدد المقاعد</td>
                                     <td><span class="m-badge  m-badge--success m-badge--wide">مفعل</span></td>
                                     <td>
                                      <span class="dropdown user-option">
@@ -237,24 +213,14 @@
                                            aria-expanded="true"><i class="la la-ellipsis-h"></i>
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-left user-option">
-                                            <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
-                                               data-target="#m_modal_3"><i
-                                                        class="la la-power-off"></i> تعطيل  </a>
-                                             <a class="dropdown-item" href="user-services.php">
-                                                   <i class="la la-calendar-check-o"></i> الحجوزات</a>
-                                            <a class="dropdown-item" href="payments.php">
-                                                   <i class="flaticon-statistics"></i> الدفعات</a>
-                                              <a class="dropdown-item" href="user-message.php">
-                                                   <i class="la la-comment-o"></i> رسائل المستخدم</a>
-                                            <a class="dropdown-item" href="#m_modal_4" data-toggle="modal"
-                                               data-target="#m_modal_4">
-                                                   <i class="flaticon-multimedia-2"></i> ارسال رسالة</a>
-
+                                            <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
+                                               data-target="#m_modal_5"><i
+                                                        class="la la-check"></i> تفعيل  </a>
                                         </div>
                                     </span>
                                     </td>
                                     <td>
-                                        <a href="user-profile.php"
+                                        <a href="driver-car-details.php"
                                            class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
                                             <i class="far fa-eye"></i>
                                         </a>
@@ -309,30 +275,6 @@
         </div>
     </div>
 </div>
-<div class="modal fade" id="m_modal_4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
-     aria-hidden="true">
-    <div class="modal-dialog modal-md" role="document">
-        <div class="modal-content">
-            <form action="#">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel1">ارسال رسالة</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="form-group m-form__group">
-                    <textarea class="form-control m-input" placeholder="ادخل نص الرسالة"  rows="3"></textarea>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                <button type="submit" class="btn btn-success">ارسال</button>
-            </div>
-            </form>
-        </div>
-    </div>
-</div>
 <div class="modal fade" id="m_modal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
      aria-hidden="true">
     <div class="modal-dialog modal-sm" role="document">
@@ -355,7 +297,6 @@
         </div>
     </div>
 </div>
-
 
 
 <!--end::Modal-->

@@ -37,6 +37,8 @@
     <link href="assets/vendors/custom/datatables/datatables.bundle.rtl.css" rel="stylesheet" type="text/css"/>
     <!--end::Page Vendors Styles -->
     <link rel="shortcut icon" href="assets/images/icon.png"/>
+    <link rel="stylesheet" href="assets/css/lightgallery.css">
+    <link rel="stylesheet" href="assets/css/lightslider.css">
     <link rel="stylesheet" href="assets/custome.css">
 </head>
 
@@ -122,13 +124,6 @@
                     <div class="col-xl-3 col-lg-4">
                         <div class="m-portlet m-portlet--full-height  ">
                             <div class="m-portlet__body">
-                                <div class="m-card-profile">
-                                    <div class="m-card-profile__pic">
-                                        <div class="m-card-profile__pic-wrapper mt-0">
-                                            <img src="assets/images/user.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="profile-btn-option">
                                     <a href="#" data-toggle="modal" data-target="#m_modal_5"
                                        class="btn btn-success m-btn m-btn--custom m-btn--icon d-block text-center ">
@@ -142,34 +137,6 @@
                                     <span class="m-auto">
                                         <i class="la la-power-off"></i>
                                         <span>تعطيل </span>
-                                    </span>
-                                    </a>
-                                    <a href="reservations.php"
-                                       class="btn btn-accent m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
-                                    <span class="m-auto">
-                                        <i class="la la-calendar-plus-o"></i>
-                                        <span>الحجوزات</span>
-                                    </span>
-                                    </a>
-                                    <a href="#"
-                                       class="btn btn-primary m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
-                                    <span class="m-auto">
-                                        <i class="flaticon-statistics"></i>
-                                        <span>الدفعات</span>
-                                    </span>
-                                    </a>
-                                    <a href="#"
-                                       class="btn btn-info  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
-                                    <span class="m-auto">
-                                        <i class="la la-comment-o"></i>
-                                        <span>رسائل المستخدم</span>
-                                    </span>
-                                    </a>
-                                    <a href="#m_modal_4" data-toggle="modal" data-target="#m_modal_4"
-                                       class="btn btn-brand  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
-                                    <span class="m-auto">
-                                        <i class="flaticon-multimedia-2"></i>
-                                        <span>ارسال رسالة </span>
                                     </span>
                                     </a>
                                 </div>
@@ -187,71 +154,71 @@
                                             <div class="row ">
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>اسم الراكب:</label>
+                                                        <label>نوع المركبة:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="اسم الراكب">
+                                                               value="نوع المركبة">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>المدينة:</label>
+                                                        <label>موديل المركبة:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="المدينة">
+                                                               value="موديل المركبة">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>بريد الكتروني:</label>
-                                                        <input disabled="" type="email"
-                                                               class="form-control m-input m-input--square"
-                                                               value="بريد الكتروني">
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group m-form__group mb-4">
-                                                        <label>الجنسية:</label>
+                                                        <label>رقم لوحة المركبة:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="الجنسية">
+                                                               value="رقم لوحة المركبة">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>الجنس:</label>
+                                                        <label>سنة الصنع:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="الجنس">
+                                                               value="سنة الصنع">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>العمر:</label>
+                                                        <label>عدد المقاعد:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="العمر">
+                                                               value="عدد المقاعد">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>المهنة:</label>
+                                                        <label>لون المركبة:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="المهنة">
+                                                               value="لون المركبة">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>نوع الراكب:</label>
+                                                        <label>نوع الوقود:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="نوع الراكب">
+                                                               value="نوع الوقود">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label class="d-block text-left">تقيم الراكب:</label>
+                                                        <label>الحالة:</label>
+                                                        <input disabled="" type="text"
+                                                               class="form-control m-input m-input--square"
+                                                               value="الحالة">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="form-group m-form__group mb-4">
+                                                        <label class="d-block text-left">تقيم المركبة:</label>
                                                         <div class="product-reviews-summary in-comment">
                                                             <div class="rating-summary">
                                                                 <div class="rating-result" title="70%">
@@ -271,7 +238,7 @@
                                                             </div>
                                                             <div class="m-widget4__info">
                                                                         <span class="m-widget4__text">
-                                                                            الهوية
+                                                                            نوع التأمين
                                                                         </span>
                                                             </div>
                                                             <div class="m-widget4__ext">
@@ -292,7 +259,7 @@
                                                             </div>
                                                             <div class="m-widget4__info">
                                                                         <span class="m-widget4__text">
-                                                                            جواز السفر
+                                                                            رخصة المركبة
                                                                         </span>
                                                             </div>
                                                             <div class="m-widget4__ext">
@@ -305,7 +272,23 @@
                                                 </div>
                                             </div>
                                             <div class="form-group m-form__group ">
-                                                <div id="map" style="width:100%; height: 350px"></div>
+                                                <ul id="imageGallery">
+                                                    <li data-thumb="assets/images/cars/1.jpg" data-src="assets/images/cars/1.jpg">
+                                                        <img src="assets/images/cars/1.jpg" />
+                                                    </li>
+                                                    <li data-thumb="assets/images/cars/2.jpg" data-src="assets/images/cars/2.jpg">
+                                                        <img src="assets/images/cars/2.jpg" />
+                                                    </li>
+                                                    <li data-thumb="assets/images/cars/3.jpg" data-src="assets/images/cars/3.jpg">
+                                                        <img src="assets/images/cars/3.jpg" />
+                                                    </li>
+                                                    <li data-thumb="assets/images/cars/4.jpg" data-src="assets/images/cars/4.jpg">
+                                                        <img src="assets/images/cars/4.jpg" />
+                                                    </li>
+                                                    <li data-thumb="assets/images/cars/5.jpg" data-src="assets/images/cars/5.jpg">
+                                                        <img src="assets/images/cars/5.jpg" />
+                                                    </li>
+                                                </ul>
                                             </div>
 
                                         </div>
@@ -358,30 +341,6 @@
         </div>
     </div>
 </div>
-<div class="modal fade" id="m_modal_4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
-     aria-hidden="true">
-    <div class="modal-dialog modal-md" role="document">
-        <div class="modal-content">
-            <form action="#">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel1">ارسال رسالة</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="form-group m-form__group">
-                        <textarea class="form-control m-input" placeholder="ادخل نص الرسالة" rows="3"></textarea>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                    <button type="submit" class="btn btn-success">ارسال</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
 <div class="modal fade" id="m_modal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
      aria-hidden="true">
     <div class="modal-dialog modal-sm" role="document">
@@ -414,27 +373,30 @@
 
 
 <!--begin::Page Scripts -->
+
+<script src="assets/js/lightgallery-all.min.js"></script>
+<script src="assets/js/lightslider.min.js"></script>
+
 <script>
-
-    function initMap() {
-        var myLatLng = {lat: -25.363, lng: 131.044};
-
-        var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 15,
-            center: myLatLng
+    $(document).ready(function() {
+        $('#imageGallery').lightSlider({
+            gallery:true,
+            item:1,
+            loop:true,
+            rtl:true,
+            thumbItem:9,
+            slideMargin:0,
+            enableDrag: false,
+            currentPagerPosition:'left',
+            onSliderLoad: function(el) {
+                el.lightGallery({
+                    selector: '#imageGallery .lslide',
+                    rtl:true
+                });
+            }
         });
-
-        var marker = new google.maps.Marker({
-            position: myLatLng,
-            map: map,
-            title: 'Hello World!'
-        });
-    }
+    });
 </script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwQWgqTGypi82vAyP97l2O5Zi_RBiVA5E&callback=initMap">
-</script>
-
 <!--end::Page Scripts -->
 </body>
 

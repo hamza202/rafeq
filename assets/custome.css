@@ -343,8 +343,7 @@ span.infobox_rate {
     margin-bottom: -30px;
 }
 .product-reviews-summary{
-    margin-top: 11px;
-}
+    margin-top: 11px;}
 .restaurant-media-con .product-reviews-summary {
     margin-top: 10px;
 }
@@ -402,4 +401,10 @@ span.infobox_rate {
     display: block;
     font-style: normal;
     speak: none;
+}
+.lg-inner {
+    direction: ltr !important;
+}
+ul#imageGallery > li:hover{
+    cursor: zoom-in;
 }

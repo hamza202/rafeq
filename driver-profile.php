@@ -111,7 +111,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">تفاصيل الراكب</h3>
+                        <h3 class="m-subheader__title ">تفاصيل السائق</h3>
                     </div>
                 </div>
             </div>
@@ -124,7 +124,8 @@
                             <div class="m-portlet__body">
                                 <div class="m-card-profile">
                                     <div class="m-card-profile__pic">
-                                        <div class="m-card-profile__pic-wrapper mt-0">
+                                        <div class="m-card-profile__pic-wrapper position-relative mt-0">
+
                                             <img src="assets/images/user.png" alt="">
                                         </div>
                                     </div>
@@ -144,11 +145,25 @@
                                         <span>تعطيل </span>
                                     </span>
                                     </a>
-                                    <a href="reservations.php"
+                                    <a href="#"
                                        class="btn btn-accent m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
                                     <span class="m-auto">
-                                        <i class="la la-calendar-plus-o"></i>
-                                        <span>الحجوزات</span>
+                                        <i class="fab fa-fly"></i>
+                                        <span>الرحلات</span>
+                                    </span>
+                                    </a>
+                                    <a href="#"
+                                       class="btn btn-success m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
+                                    <span class="m-auto">
+                                        <i class="fas fa-plane"></i>
+                                        <span>رحلات السائق</span>
+                                    </span>
+                                    </a>
+                                    <a href="#"
+                                       class="btn btn-accent m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
+                                    <span class="m-auto">
+                                        <i class="fa fa-car"></i>
+                                        <span>المركبات</span>
                                     </span>
                                     </a>
                                     <a href="#"
@@ -162,7 +177,7 @@
                                        class="btn btn-info  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
                                     <span class="m-auto">
                                         <i class="la la-comment-o"></i>
-                                        <span>رسائل المستخدم</span>
+                                        <span>رسائل السائق</span>
                                     </span>
                                     </a>
                                     <a href="#m_modal_4" data-toggle="modal" data-target="#m_modal_4"
@@ -187,10 +202,10 @@
                                             <div class="row ">
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>اسم الراكب:</label>
+                                                        <label>اسم السائق:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="اسم الراكب">
+                                                               value="اسم السائق">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
@@ -203,10 +218,10 @@
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>بريد الكتروني:</label>
-                                                        <input disabled="" type="email"
+                                                        <label>العمر:</label>
+                                                        <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="بريد الكتروني">
+                                                               value="العمر">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
@@ -219,10 +234,10 @@
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>الجنس:</label>
+                                                        <label>المهنة:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="الجنس">
+                                                               value="المهنة">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
@@ -243,15 +258,23 @@
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>نوع الراكب:</label>
+                                                        <label>نوع السائق:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="نوع الراكب">
+                                                               value="نوع السائق">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label class="d-block text-left">تقيم الراكب:</label>
+                                                        <label>بريد الكتروني:</label>
+                                                        <input disabled="" type="email"
+                                                               class="form-control m-input m-input--square"
+                                                               value="hamza@hotmail.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="form-group m-form__group mb-4">
+                                                        <label class="d-block text-left">تقيم السائق:</label>
                                                         <div class="product-reviews-summary in-comment">
                                                             <div class="rating-summary">
                                                                 <div class="rating-result" title="70%">
@@ -292,7 +315,7 @@
                                                             </div>
                                                             <div class="m-widget4__info">
                                                                         <span class="m-widget4__text">
-                                                                            جواز السفر
+                                                                            رخصة القيادة
                                                                         </span>
                                                             </div>
                                                             <div class="m-widget4__ext">

@@ -107,15 +107,6 @@
         <!-- END: Left Aside -->
         <div class="m-grid__item m-grid__item--fluid m-wrapper">
 
-            <!-- BEGIN: Subheader -->
-            <div class="m-subheader ">
-                <div class="d-flex align-items-center">
-                    <div class="mr-auto">
-                        <h3 class="m-subheader__title ">المستخدمين</h3>
-                    </div>
-                </div>
-            </div>
-
             <!-- END: Subheader -->
             <div class="m-content">
                 <div class="m-portlet m-portlet--mobile">
@@ -123,7 +114,7 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    ادارة المستخدميين
+                                    دفعات المستخدمين
                                 </h3>
                             </div>
                         </div>
@@ -136,127 +127,47 @@
                                 <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>اسم المستخدم</th>
-                                    <th>رقم جوال</th>
-                                    <th>المدينة</th>
-                                    <th>نوع الراكب</th>
+                                    <th>الرحلة</th>
+                                    <th>المبلغ</th>
+                                    <th>طريقة الدفع</th>
                                     <th>الحالة</th>
-                                    <th>عمليات</th>
-                                    <th>تفاصيل</th>
+                                    <th>ارجاع</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>حمزة ابو عيطة</td>
-                                    <td>0595779009</td>
-                                    <td>المدينة</td>
-                                    <td>نوع الراكب</td>
-                                    <td><span class="m-badge  m-badge--success m-badge--wide">مفعل</span></td>
+                                    <td>الرحلة</td>
+                                    <td>المبلغ</td>
+                                    <td>طريقة الدفع</td>
+                                    <td><span class="m-badge  m-badge--success m-badge--wide">ارجاع</span></td>
                                     <td>
-                                     <span class="dropdown user-option">
-                                        <a href="#"
-                                           class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill"
-                                           data-toggle="dropdown"
-                                           aria-expanded="true"><i class="la la-ellipsis-h"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-left user-option">
-                                            <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
-                                               data-target="#m_modal_5"><i
-                                                        class="la la-check"></i> تفعيل  </a>
-                                              <a class="dropdown-item" href="user-services.php">
-                                                   <i class="la la-calendar-check-o"></i> الحجوزات</a>
-                                            <a class="dropdown-item" href="payments.php">
-                                                   <i class="flaticon-statistics"></i> الدفعات</a>
-                                              <a class="dropdown-item" href="user-message.php">
-                                                   <i class="la la-comment-o"></i> رسائل المستخدم</a>
-                                            <a class="dropdown-item" href="#m_modal_4" data-toggle="modal"
-                                               data-target="#m_modal_4">
-                                                   <i class="flaticon-multimedia-2"></i> ارسال رسالة</a>
-                                        </div>
-                                    </span>
-                                    </td>
-                                    <td>
-                                        <a href="user-profile.php"
-                                           class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>حمزة ابو عيطة</td>
-                                    <td>0595779009</td>
-                                    <td>المدينة</td>
-                                    <td>نوع الراكب</td>
-                                    <td><span class="m-badge  m-badge--danger m-badge--wide">معطل</span></td>
-                                    <td>
-                                     <span class="dropdown user-option">
-                                        <a href="#"
-                                           class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill"
-                                           data-toggle="dropdown"
-                                           aria-expanded="true"><i class="la la-ellipsis-h"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-left user-option">
-                                            <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
-                                               data-target="#m_modal_3"><i
-                                                        class="la la-power-off"></i> تعطيل  </a>
-                                             <a class="dropdown-item" href="user-services.php">
-                                                   <i class="la la-calendar-check-o"></i> الحجوزات</a>
-                                            <a class="dropdown-item" href="payments.php">
-                                                   <i class="flaticon-statistics"></i> الدفعات</a>
-                                              <a class="dropdown-item" href="user-message.php">
-                                                   <i class="la la-comment-o"></i> رسائل المستخدم</a>
-                                            <a class="dropdown-item" href="#m_modal_4" data-toggle="modal"
-                                               data-target="#m_modal_4">
-                                                   <i class="la flaticon-multimedia-2"></i> ارسال رسالة</a>
-
-
-                                        </div>
-                                    </span>
-                                    </td>
-                                    <td>
-                                        <a href="user-profile.php"
-                                           class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
-                                            <i class="far fa-eye"></i>
+                                        <a href="#" class="btn btn-sm btn-primary m-btn m-btn--icon btn-lg m-btn--icon-only">
+                                            <i class="fa fa-reply"></i>
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>1</td>
-                                    <td>حمزة ابو عيطة</td>
-                                    <td>0595779009</td>
-                                    <td>المدينة</td>
-                                    <td>نوع الراكب</td>
-                                    <td><span class="m-badge  m-badge--success m-badge--wide">مفعل</span></td>
+                                    <td>الرحلة</td>
+                                    <td>المبلغ</td>
+                                    <td>طريقة الدفع</td>
+                                    <td><span class="m-badge  m-badge--info m-badge--wide">ارجاع مع خصم</span></td>
                                     <td>
-                                     <span class="dropdown user-option">
-                                        <a href="#"
-                                           class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill"
-                                           data-toggle="dropdown"
-                                           aria-expanded="true"><i class="la la-ellipsis-h"></i>
+                                        <a href="#" class="btn btn-sm btn-primary m-btn m-btn--icon btn-lg m-btn--icon-only">
+                                            <i class="fa fa-reply"></i>
                                         </a>
-                                        <div class="dropdown-menu dropdown-menu-left user-option">
-                                            <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
-                                               data-target="#m_modal_3"><i
-                                                        class="la la-power-off"></i> تعطيل  </a>
-                                             <a class="dropdown-item" href="user-services.php">
-                                                   <i class="la la-calendar-check-o"></i> الحجوزات</a>
-                                            <a class="dropdown-item" href="payments.php">
-                                                   <i class="flaticon-statistics"></i> الدفعات</a>
-                                              <a class="dropdown-item" href="user-message.php">
-                                                   <i class="la la-comment-o"></i> رسائل المستخدم</a>
-                                            <a class="dropdown-item" href="#m_modal_4" data-toggle="modal"
-                                               data-target="#m_modal_4">
-                                                   <i class="flaticon-multimedia-2"></i> ارسال رسالة</a>
-
-                                        </div>
-                                    </span>
                                     </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>الرحلة</td>
+                                    <td>المبلغ</td>
+                                    <td>طريقة الدفع</td>
+                                    <td><span class="m-badge  m-badge--danger m-badge--wide">غير مرجع</span></td>
                                     <td>
-                                        <a href="user-profile.php"
-                                           class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
-                                            <i class="far fa-eye"></i>
+                                        <a href="#" class="btn btn-sm btn-primary m-btn m-btn--icon btn-lg m-btn--icon-only">
+                                            <i class="fa fa-reply"></i>
                                         </a>
                                     </td>
                                 </tr>
