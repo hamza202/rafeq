@@ -4,8 +4,15 @@
     <list default="true" id="7a00ccdf-09b9-4b43-adfc-278081719acb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/custome.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/custome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/driver-profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers.php" beforeDir="false" afterPath="$PROJECT_DIR$/drivers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/previous-reservations-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/previous-reservations-details.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation-request-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-request-details.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservations-confirmed-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/reservations-confirmed-details.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top_bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/top_bar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/user-profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-services.php" beforeDir="false" afterPath="$PROJECT_DIR$/user-services.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/users.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,24 +23,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/custome.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="408" column="19" selection-start-line="408" selection-start-column="19" selection-end-line="408" selection-end-column="19" />
+            <state relative-caret-position="6732">
+              <caret line="396" column="17" selection-start-line="396" selection-start-column="17" selection-end-line="396" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/driver-profile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="281" column="63" selection-start-line="281" selection-start-column="63" selection-end-line="281" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/driver-car-details.php">
+        <entry file="file://$PROJECT_DIR$/top_bar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="392" column="44" selection-start-line="392" selection-start-column="32" selection-end-line="392" selection-end-column="44" />
-              <folding>
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="1020">
+              <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users-comments.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3298">
+              <caret line="194" column="299" selection-start-line="194" selection-start-column="299" selection-end-line="194" selection-end-column="299" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-profile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/previous-reservations-details.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2465">
+              <caret line="145" column="76" selection-start-line="145" selection-start-column="76" selection-end-line="145" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/driver-tours-details.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3774">
+              <caret line="222" column="51" selection-start-line="222" selection-start-column="51" selection-end-line="222" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2176">
+              <caret line="128" column="30" lean-forward="true" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/menu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drivers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3553">
+              <caret line="209" column="92" selection-start-line="209" selection-start-column="92" selection-end-line="209" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -42,10 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.btn-focus:hover</find>
-      <find>.m-link</find>
-      <find>m_login_signin_submit</find>
-      <find>.btn-outline-focus:hover</find>
       <find>.m-login.m-login--1 .m-login__wrapper</find>
       <find>ارسال</find>
       <find>profile.php</find>
@@ -56,13 +127,11 @@
       <find>حجوزات</find>
       <find>m_tabs_6_2</find>
       <find>m_modal_4</find>
-      <find>m_table_2</find>
       <find>تعطيل الحساب</find>
       <find>m_table_3</find>
       <find>.rating-summary .rating-result:before</find>
       <find>product-reviews-summary</find>
       <find>الدفعات</find>
-      <find>ارسال رسالة</find>
       <find>الدف</find>
       <find>user-profile.php</find>
       <find>m-card-profile__pic-wrapper</find>
@@ -72,10 +141,17 @@
       <find>المركبات</find>
       <find>m-card-profile__pic</find>
       <find>اسم الراكب:</find>
+      <find>driver-car-details.php</find>
+      <find>رحلات السا</find>
+      <find>اسم</find>
+      <find>m_table_2</find>
+      <find>ارسال رسالة</find>
+      <find>Melania Trump</find>
     </findStrings>
     <replaceStrings>
       <replace>assets</replace>
       <replace>user-profile.php</replace>
+      <replace>driver-tours-details.php</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -91,26 +167,30 @@
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/demo/default/custom/crud/datatables/basic/headers.js" />
-        <option value="$PROJECT_DIR$/reservation-request-details.php" />
-        <option value="$PROJECT_DIR$/reservations-confirmed-details.php" />
-        <option value="$PROJECT_DIR$/user-services.php" />
-        <option value="$PROJECT_DIR$/previous-reservations-details.php" />
-        <option value="$PROJECT_DIR$/users.php" />
         <option value="$PROJECT_DIR$/payments.php" />
         <option value="$PROJECT_DIR$/all-message.php" />
-        <option value="$PROJECT_DIR$/menu.php" />
-        <option value="$PROJECT_DIR$/user-profile.php" />
-        <option value="$PROJECT_DIR$/driver-profile.php" />
         <option value="$PROJECT_DIR$/driver-cars.php" />
-        <option value="$PROJECT_DIR$/drivers.php" />
         <option value="$PROJECT_DIR$/driver-car-details.php" />
+        <option value="$PROJECT_DIR$/driver-tours.php" />
+        <option value="$PROJECT_DIR$/drivers.php" />
+        <option value="$PROJECT_DIR$/driver-tours-details.php" />
+        <option value="$PROJECT_DIR$/menu.php" />
+        <option value="$PROJECT_DIR$/users.php" />
+        <option value="$PROJECT_DIR$/user-profile.php" />
+        <option value="$PROJECT_DIR$/reservations-confirmed-details.php" />
+        <option value="$PROJECT_DIR$/previous-reservations-details.php" />
+        <option value="$PROJECT_DIR$/user-services.php" />
+        <option value="$PROJECT_DIR$/reservation-request-details.php" />
+        <option value="$PROJECT_DIR$/top_bar.php" />
+        <option value="$PROJECT_DIR$/users-comments.php" />
         <option value="$PROJECT_DIR$/assets/custome.css" />
+        <option value="$PROJECT_DIR$/driver-profile.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-71" />
+    <option name="y" value="188" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -131,12 +211,6 @@
               <item name="rafeq" type="b2602c69:ProjectViewProjectNode" />
               <item name="rafeq" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rafeq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rafeq" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="snippets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,17 +256,22 @@
       <workItem from="1561192818435" duration="6090000" />
       <workItem from="1561275222395" duration="7125000" />
       <workItem from="1561376375193" duration="4861000" />
+      <workItem from="1561454343186" duration="5660000" />
+      <workItem from="1561631030500" duration="1256000" />
+      <workItem from="1561812552667" duration="106000" />
+      <workItem from="1561893305171" duration="4016000" />
+      <workItem from="1561975426689" duration="6427000" />
+      <workItem from="1562064491211" duration="747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60637000" />
+    <option name="totallyTimeSpent" value="78849000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2806354" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23373677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -238,27 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reservation-request-details.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4148">
-          <caret line="244" selection-start-line="244" selection-end-line="244" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reservations-confirmed-details.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="399" column="7" selection-start-line="399" selection-start-column="7" selection-end-line="399" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7208">
-          <caret line="424" column="68" selection-start-line="424" selection-start-column="68" selection-end-line="424" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/demo/default/custom/crud/datatables/basic/headers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -267,37 +325,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/all-message.php" />
-    <entry file="file://$PROJECT_DIR$/previous-reservations-details.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4403">
-          <caret line="259" column="50" selection-start-line="259" selection-start-column="50" selection-end-line="259" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2839">
-          <caret line="167" column="102" selection-start-line="167" selection-start-column="102" selection-end-line="167" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/tellers.sa/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4097">
-          <caret line="241" column="36" selection-start-line="241" selection-start-column="36" selection-end-line="241" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/tellers.sa/index.html" />
     <entry file="file://$PROJECT_DIR$/payments.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2312">
@@ -336,16 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/driver-profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="215" column="62" selection-start-line="215" selection-start-column="62" selection-end-line="215" selection-end-column="62" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#9;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/driver-cars.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -360,13 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drivers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="215" column="48" lean-forward="true" selection-start-line="215" selection-start-column="48" selection-end-line="215" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/lightgallery.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4811">
@@ -376,19 +387,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/driver-car-details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="872">
           <caret line="392" column="44" selection-start-line="392" selection-start-column="32" selection-end-line="392" selection-end-column="44" />
-          <folding>
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver-tours.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3094">
+          <caret line="182" column="73" selection-start-line="182" selection-start-column="73" selection-end-line="182" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3587">
+          <caret line="211" column="74" selection-start-line="211" selection-start-column="74" selection-end-line="211" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reservations-confirmed-details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="151" column="67" selection-start-line="151" selection-start-column="67" selection-end-line="151" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reservation-request-details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="76" selection-start-line="145" selection-start-column="76" selection-end-line="145" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/custome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="408" column="19" selection-start-line="408" selection-start-column="19" selection-end-line="408" selection-end-column="19" />
+        <state relative-caret-position="6732">
+          <caret line="396" column="17" selection-start-line="396" selection-start-column="17" selection-end-line="396" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_bar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users-comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3298">
+          <caret line="194" column="299" selection-start-line="194" selection-start-column="299" selection-end-line="194" selection-end-column="299" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/previous-reservations-details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="76" selection-start-line="145" selection-start-column="76" selection-end-line="145" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver-tours-details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3774">
+          <caret line="222" column="51" selection-start-line="222" selection-start-column="51" selection-end-line="222" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="128" column="30" lean-forward="true" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drivers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3553">
+          <caret line="209" column="92" selection-start-line="209" selection-start-column="92" selection-end-line="209" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/driver-profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="281" column="63" selection-start-line="281" selection-start-column="63" selection-end-line="281" selection-end-column="63" />
         </state>
       </provider>
     </entry>

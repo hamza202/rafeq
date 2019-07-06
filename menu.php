@@ -17,7 +17,7 @@
             <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
                 <a href="users.php" class="m-menu__link m-menu__toggle">
                     <i class="m-menu__link-icon fa fa-user">
-                    </i><span class="m-menu__link-text">المستخدمين</span>
+                    </i><span class="m-menu__link-text">الركاب</span>
                 </a>
 
             </li>

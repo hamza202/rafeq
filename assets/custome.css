@@ -408,3 +408,13 @@ span.infobox_rate {
 ul#imageGallery > li:hover{
     cursor: zoom-in;
 }
+.m-tabs-line.m-tabs-line--brouwn.nav.nav-tabs .nav-link:hover,
+.m-tabs-line.m-tabs-line--brouwn.nav.nav-tabs .nav-link.active,
+.m-tabs-line.m-tabs-line--brouwn a.m-tabs__link:hover,
+.m-tabs-line.m-tabs-line--brouwn a.m-tabs__link.active {
+    color: #8F5B12;
+    border-bottom: 1px solid #8F5B12;
+}
+.no-hover:hover{
+    color: transparent;
+}

@@ -119,7 +119,7 @@
                     <div class="col-xl-12">
                         <div class="m-portlet m-portlet--full-height  ">
                             <div class="m-portlet__body">
-                                <ul class="nav nav-tabs  m-tabs-line m-tabs-line--2x m-tabs-line--success"
+                                <ul class="nav nav-tabs  m-tabs-line m-tabs-line--2x m-tabs-line--brouwn"
                                     role="tablist">
                                     <li class="nav-item m-tabs__item">
                                         <a class="nav-link m-tabs__link active" data-toggle="tab" href="#m_tabs_6_1"
@@ -154,7 +154,7 @@
                                                         <thead>
                                                         <tr>
                                                             <th>ID</th>
-                                                            <th>الرحلة</th>
+                                                            <th>كود الرحلة</th>
                                                             <th>من</th>
                                                             <th>الى</th>
                                                             <th>حالة الطلب</th>
@@ -165,7 +165,7 @@
                                                         <tbody>
                                                         <tr>
                                                             <td>1</td>
-                                                            <td>الرحلة</td>
+                                                            <td>كود الرحلة</td>
                                                             <td>من</td>
                                                             <td>الى</td>
                                                             <td><span class="m-badge  m-badge--success m-badge--wide">قيد المراجعة</span>
@@ -187,7 +187,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td>2</td>
-                                                            <td>الرحلة</td>
+                                                            <td>كود الرحلة</td>
                                                             <td>من</td>
                                                             <td>الى</td>
                                                             <td><span class="m-badge  m-badge--warning m-badge--wide">في انتظار الدفع</span>
@@ -209,7 +209,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td>3</td>
-                                                            <td>الرحلة</td>
+                                                            <td>كود الرحلة</td>
                                                             <td>من</td>
                                                             <td>الى</td>
                                                             <td><span class="m-badge  m-badge--danger m-badge--wide">ملغي</span>
@@ -254,6 +254,7 @@
                                                         <thead>
                                                         <tr>
                                                             <th>ID</th>
+                                                            <th>كود الرحلة</th>
                                                             <th>التاريخ/الوقت</th>
                                                             <th>من</th>
                                                             <th>الى</th>
@@ -264,6 +265,7 @@
                                                         <tbody>
                                                         <tr>
                                                             <td>1</td>
+                                                            <td>كود الرحلة</td>
                                                             <td>التاريخ/الوقت</td>
                                                             <td>من</td>
                                                             <td>الى</td>
@@ -284,6 +286,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td>2</td>
+                                                            <td>كود الرحلة</td>
                                                             <td>التاريخ/الوقت</td>
                                                             <td>من</td>
                                                             <td>الى</td>
@@ -304,6 +307,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td>3</td>
+                                                            <td>كود الرحلة</td>
                                                             <td>التاريخ/الوقت</td>
                                                             <td>من</td>
                                                             <td>الى</td>
@@ -347,6 +351,7 @@
                                                         <thead>
                                                         <tr>
                                                             <th>ID</th>
+                                                            <th>كود الرحلة</th>
                                                             <th>التاريخ/الوقت</th>
                                                             <th>حالة الطلب</th>
                                                             <th>من</th>
@@ -358,6 +363,7 @@
                                                         <tbody>
                                                         <tr>
                                                             <td>1</td>
+                                                            <td>كود الرحلة</td>
                                                             <td>التاريخ/الوقت</td>
                                                             <td>
                                                                 <span class="m-badge  m-badge--warning m-badge--wide">منتهي</span>
@@ -381,6 +387,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td>2</td>
+                                                            <td>كود الرحلة</td>
                                                             <td>التاريخ/الوقت</td>
                                                             <td>
                                                                 <span class="m-badge  m-badge--danger m-badge--wide">مغلق</span>
@@ -404,6 +411,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td>3</td>
+                                                            <td>كود الرحلة</td>
                                                             <td>التاريخ/الوقت</td>
                                                             <td>
                                                                 <span class="m-badge  m-badge--danger m-badge--wide">مغلق</span>

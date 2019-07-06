@@ -274,14 +274,28 @@
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
+                                                        <label class="d-block text-left">اسماء الركاب:</label>
+                                                        <a href="users-comments.php" class="btn btn-info m-btn  w-100 m-btn--custom m-btn--icon">
+                                                        <span>
+                                                            <i class="fa fa-comment-alt"></i>
+                                                            <span>تعليقات الركاب</span>
+                                                        </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="form-group m-form__group mb-4">
                                                         <label class="d-block text-left">تقيم السائق:</label>
-                                                        <div class="product-reviews-summary in-comment">
-                                                            <div class="rating-summary">
-                                                                <div class="rating-result" title="70%">
-                                                                    <span style="width:70%"></span>
+                                                        <a href="#" data-toggle="modal" data-target="#m_modal_2"
+                                                           class="d-inline-block text-center no-hover">
+                                                            <div class="product-reviews-summary in-comment">
+                                                                <div class="rating-summary">
+                                                                    <div class="rating-result" title="70%">
+                                                                        <span style="width:70%"></span>
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -423,6 +437,90 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
                 <button type="button" class="btn btn-danger">تأكيد</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="m_modal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
+     aria-hidden="true">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel1">تفاضيل التقيم</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="row mb-3">
+                    <div class="col-lg-2">
+                        <p class="m-0">رائع:</p>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 60%"
+                                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                150
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-lg-2">
+                        <p class="m-0">ممتاز:</p>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 40%"
+                                 aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                                120
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-lg-2">
+                        <p class="m-0">جيد:</p>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="progress">
+                            <div class="progress-bar bg-brand" role="progressbar" style="width: 30%"
+                                 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                                90
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-lg-2">
+                        <p class="m-0">مقبول:</p>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 20%"
+                                 aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                70
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-lg-2">
+                        <p class="m-0">ضعيف:</p>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 10%"
+                                 aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                                20
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
             </div>
         </div>
     </div>

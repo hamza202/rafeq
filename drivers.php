@@ -166,7 +166,7 @@
                                                         class="la la-check"></i> تفعيل  </a>
                                               <a class="dropdown-item" href="user-services.php">
                                                    <i class="fab fa-fly"></i> الرحلات</a>
-                                             <a class="dropdown-item" href="user-message.php">
+                                             <a class="dropdown-item" href="driver-tours.php">
                                                    <i class="fas fa-plane"></i> رحلات السائق</a>
                                              <a class="dropdown-item" href="driver-cars.php">
                                                    <i class="fa fa-car"></i> المركبات</a>
@@ -207,7 +207,7 @@
                                                         class="la la-power-off"></i> تعطيل  </a>
                                            <a class="dropdown-item" href="user-services.php">
                                                    <i class="fab fa-fly"></i> الرحلات</a>
-                                             <a class="dropdown-item" href="user-message.php">
+                                             <a class="dropdown-item" href="driver-tours.php">
                                                    <i class="fas fa-plane"></i> رحلات السائق</a>
                                              <a class="dropdown-item" href="driver-cars.php">
                                                    <i class="fa fa-car"></i> المركبات</a>
@@ -252,7 +252,7 @@
                                                         class="la la-power-off"></i> تعطيل  </a>
                                              <a class="dropdown-item" href="user-services.php">
                                                    <i class="fab fa-fly"></i> الرحلات</a>
-                                             <a class="dropdown-item" href="user-message.php">
+                                             <a class="dropdown-item" href="driver-tours.php">
                                                    <i class="fas fa-plane"></i> رحلات السائق</a>
                                              <a class="dropdown-item" href="driver-cars.php">
                                                    <i class="fa fa-car"></i> المركبات</a>

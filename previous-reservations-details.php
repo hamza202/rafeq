@@ -140,7 +140,15 @@
                                         <div class="row ">
                                             <div class="col-lg-6">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label>اسم المستخدم:</label>
+                                                    <label>كود الرحلة:</label>
+                                                    <input disabled="" type="text"
+                                                           class="form-control m-input m-input--square"
+                                                           value="كود الرحلة">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group m-form__group mb-4">
+                                                    <label>اسم الراكب:</label>
                                                     <input disabled="" type="text"
                                                            class="form-control m-input m-input--square"
                                                            value="اسم المستخدم">
