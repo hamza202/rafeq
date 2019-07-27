@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>رفيق | المستخدمين</title>
+    <title>Rafeeq | Driver Tours</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -23,18 +23,18 @@
     <!--end::Web font -->
 
     <!--begin::Global Theme Styles -->
-    <!--<link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />-->
+    <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
 
-    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>
-    <!--<link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />-->
+<!--    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
+    <link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />
 
-    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>
+<!--    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
 
     <!--end::Global Theme Styles -->
 
     <!--begin::Page Vendors Styles -->
 
-    <link href="assets/vendors/custom/datatables/datatables.bundle.rtl.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/vendors/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css"/>
     <!--end::Page Vendors Styles -->
     <link rel="shortcut icon" href="assets/images/icon.png"/>
     <link rel="stylesheet" href="assets/custome.css">
@@ -114,7 +114,7 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    رحلات السائق
+                                    Driver Tours
                                 </h3>
                             </div>
                         </div>
@@ -126,27 +126,27 @@
                                    id="m_table_1">
                                 <thead>
                                 <tr>
-                                    <th>الرحلة</th>
-                                    <th>من</th>
-                                    <th>الى</th>
-                                    <th>السعر الإجمالي</th>
-                                    <th>عدد الركاب</th>
-                                    <th>التاريخ</th>
-                                    <th>توقيت</th>
-                                    <th>الحالة</th>
-                                    <th>تفاصيل</th>
+                                    <th>trip number</th>
+                                    <th>from</th>
+                                    <th>to</th>
+                                    <th>total price</th>
+                                    <th>passengers numer</th>
+                                    <th>date</th>
+                                    <th>timing</th>
+                                    <th>state</th>
+                                    <th>details</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td>رقم الرحلة</td>
-                                    <td>من</td>
-                                    <td>الى</td>
-                                    <td>السعر الإجمالي</td>
-                                    <td>عدد الركاب</td>
-                                    <td>التاريخ</td>
-                                    <td>توقيت</td>
-                                    <td><span class="m-badge  m-badge--success m-badge--wide">تمت</span></td>
+                                    <td>trip number</td>
+                                    <td>from</td>
+                                    <td>to</td>
+                                    <td>total price</td>
+                                    <td>5</td>
+                                    <td>date</td>
+                                    <td>timing</td>
+                                    <td><span class="m-badge  m-badge--success m-badge--wide">done</span></td>
                                     <td>
                                         <a href="driver-tours-details.php"
                                            class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
@@ -155,14 +155,14 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>رقم الرحلة</td>
-                                    <td>من</td>
-                                    <td>الى</td>
-                                    <td>السعر الإجمالي</td>
-                                    <td>عدد الركاب</td>
-                                    <td>التاريخ</td>
-                                    <td>توقيت</td>
-                                    <td><span class="m-badge  m-badge--danger m-badge--wide">ملغي</span></td>
+                                    <td>trip number</td>
+                                    <td>from</td>
+                                    <td>to</td>
+                                    <td>total price</td>
+                                    <td>4</td>
+                                    <td>date</td>
+                                    <td>timing</td>
+                                    <td><span class="m-badge  m-badge--danger m-badge--wide">Canceled</span></td>
                                     <td>
                                         <a href="driver-tours-details.php"
                                            class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
@@ -171,14 +171,14 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>رقم الرحلة</td>
-                                    <td>من</td>
-                                    <td>الى</td>
-                                    <td>السعر الإجمالي</td>
-                                    <td>عدد الركاب</td>
-                                    <td>التاريخ</td>
-                                    <td>توقيت</td>
-                                    <td><span class="m-badge  m-badge--warning m-badge--wide">قيد التنفيذ</span></td>
+                                    <td>trip number</td>
+                                    <td>from</td>
+                                    <td>to</td>
+                                    <td>total price</td>
+                                    <td>7</td>
+                                    <td>date</td>
+                                    <td>timing</td>
+                                    <td><span class="m-badge  m-badge--warning m-badge--wide">Underway</span></td>
                                     <td>
                                         <a href="driver-tours-details.php"
                                            class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
@@ -212,51 +212,6 @@
 
 <!-- end::Scroll Top -->
 
-<!--begin::Modal-->
-<div class="modal fade" id="m_modal_5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
-    <div class="modal-dialog modal-sm" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">تفعيل الحساب</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>
-                    هل انت متأكد من تفعيل هذا الحساب؟
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                <button type="button" class="btn btn-success">تأكيد</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="m_modal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
-    <div class="modal-dialog modal-sm" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">تعطيل الحساب</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>
-                    هل انت متأكد من تعطيل هذا الحساب؟
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                <button type="button" class="btn btn-danger">تأكيد</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <!--end::Modal-->

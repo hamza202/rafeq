@@ -83,7 +83,7 @@
                         <span class="m-topbar__username m--hide">Nick</span>
                     </a>
                     <div class="m-dropdown__wrapper">
-                        <span class="m-dropdown__arrow m-dropdown__arrow--left m-dropdown__arrow--adjust"></span>
+                        <span class="m-dropdown__arrow m-dropdown__arrow--right m-dropdown__arrow--adjust"></span>
                         <div class="m-dropdown__inner">
                             <div class="m-dropdown__header m--align-center"
                                  style="background: url(assets/app/media/img/misc/user_profile_bg.jpg); background-size: cover;">
@@ -97,7 +97,7 @@
 -->
                                     </div>
                                     <div class="m-card-user__details">
-                                        <span class="m-card-user__name m--font-weight-500">حمزة ابو هيطة</span>
+                                        <span class="m-card-user__name m--font-weight-500">hamza abo aitah</span>
                                         <a href="" class="m-card-user__email m--font-weight-300 m-link">mark.andre@gmail.com</a>
                                     </div>
                                 </div>
@@ -111,7 +111,7 @@
                                         </li>
                                         <li class="m-nav__item">
                                             <a href="#"
-                                               class="btn m-btn--pill    btn-secondary m-btn m-btn--custom m-btn--label-brand m-btn--bolder">تسجيل الخروج</a>
+                                               class="btn m-btn--pill    btn-secondary m-btn m-btn--custom m-btn--label-brand m-btn--bolder">Log Out</a>
                                         </li>
                                     </ul>
                                 </div>

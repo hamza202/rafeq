@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>رفيق | تفاصيل الراكب</title>
+    <title>Rafeeq | Details of the passenger</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -23,18 +23,17 @@
     <!--end::Web font -->
 
     <!--begin::Global Theme Styles -->
-    <!--<link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />-->
+    <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
 
-    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>
-    <!--<link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />-->
+<!--    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
+    <link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />
 
-    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>
+<!--    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
 
     <!--end::Global Theme Styles -->
 
     <!--begin::Page Vendors Styles -->
 
-    <link href="assets/vendors/custom/datatables/datatables.bundle.rtl.css" rel="stylesheet" type="text/css"/>
     <!--end::Page Vendors Styles -->
     <link rel="shortcut icon" href="assets/images/icon.png"/>
     <link rel="stylesheet" href="assets/css/lightgallery.css">
@@ -113,7 +112,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">تفاصيل الراكب</h3>
+                        <h3 class="m-subheader__title ">Details of the passenger</h3>
                     </div>
                 </div>
             </div>
@@ -129,14 +128,14 @@
                                        class="btn btn-success m-btn m-btn--custom m-btn--icon d-block text-center ">
                                     <span class="m-auto">
                                         <i class="la la-check"></i>
-                                        <span>تفعيل </span>
+                                        <span>active </span>
                                     </span>
                                     </a>
                                     <a href="#m_modal_3" data-toggle="modal" data-target="#m_modal_3"
                                        class="btn btn-warning  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
                                     <span class="m-auto">
                                         <i class="la la-power-off"></i>
-                                        <span>تعطيل </span>
+                                        <span>Disable </span>
                                     </span>
                                     </a>
                                 </div>
@@ -154,71 +153,71 @@
                                             <div class="row ">
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>نوع المركبة:</label>
+                                                        <label>vehicle type:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="نوع المركبة">
+                                                               value="vehicle type ">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>موديل المركبة:</label>
+                                                        <label>vehicle model:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="موديل المركبة">
+                                                               value="vehicle model">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>رقم لوحة المركبة:</label>
+                                                        <label>Vehicle panel number:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="رقم لوحة المركبة">
+                                                               value="Vehicle panel number">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>سنة الصنع:</label>
+                                                        <label>Manufacturing year:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="سنة الصنع">
+                                                               value="manufacturing year">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>عدد المقاعد:</label>
+                                                        <label>Number of seats:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="عدد المقاعد">
+                                                               value="Number of seats">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>لون المركبة:</label>
+                                                        <label>vehicle color:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="لون المركبة">
+                                                               value="vehicle color">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>نوع الوقود:</label>
+                                                        <label>Fuel type:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="نوع الوقود">
+                                                               value="Fuel type">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>الحالة:</label>
+                                                        <label>state:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="الحالة">
+                                                               value="state">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label class="d-block text-left">تقيم المركبة:</label>
+                                                        <label class="d-block text-left">Vehicle valuation:</label>
                                                         <div class="product-reviews-summary in-comment">
                                                             <div class="rating-summary">
                                                                 <div class="rating-result" title="70%">
@@ -238,7 +237,7 @@
                                                             </div>
                                                             <div class="m-widget4__info">
                                                                         <span class="m-widget4__text">
-                                                                            نوع التأمين
+                                                                            Insurance type
                                                                         </span>
                                                             </div>
                                                             <div class="m-widget4__ext">
@@ -259,7 +258,7 @@
                                                             </div>
                                                             <div class="m-widget4__info">
                                                                         <span class="m-widget4__text">
-                                                                            رخصة المركبة
+                                                                            Vehicle License
                                                                         </span>
                                                             </div>
                                                             <div class="m-widget4__ext">
@@ -324,19 +323,19 @@
     <div class="modal-dialog modal-sm" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">تفعيل الحساب</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Account activate</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 <p>
-                    هل انت متأكد من تفعيل هذا الحساب؟
+                    Are you sure you want to activate this account?
                 </p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                <button type="button" class="btn btn-success">تأكيد</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success">Confirmation</button>
             </div>
         </div>
     </div>
@@ -346,19 +345,19 @@
     <div class="modal-dialog modal-sm" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">تعطيل الحساب</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Disable account</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 <p>
-                    هل انت متأكد من تعطيل هذا الحساب؟
+                    Are you sure you want to disable this account?
                 </p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                <button type="button" class="btn btn-danger">تأكيد</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger">Confirmation</button>
             </div>
         </div>
     </div>

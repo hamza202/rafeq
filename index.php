@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>رفيق | احصائيات</title>
+    <title>Rafeeq | Statistics</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -23,12 +23,12 @@
     <!--end::Web font -->
 
     <!--begin::Global Theme Styles -->
-    <!--<link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />-->
+    <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
 
-    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>
-    <!--<link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />-->
+<!--    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
+    <link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />
 
-    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>
+<!--    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
 
     <!--end::Global Theme Styles -->
 
@@ -111,7 +111,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">احصائيات رفيق</h3>
+                        <h3 class="m-subheader__title ">Rafeeq Statistics</h3>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@
                                 <div class="m-widget24">
                                     <div class="m-widget24__item">
                                         <h4 class="m-widget24__title">
-                                             الركاب
+                                            Passengers
                                         </h4><br>
                                         <span class="m-widget24__stats m--font-brand">
 													1411
@@ -147,7 +147,7 @@
                                 <div class="m-widget24">
                                     <div class="m-widget24__item">
                                         <h4 class="m-widget24__title">
-                                            السائقين
+                                            Drivers
                                         </h4><br>
                                         <span class="m-widget24__stats m--font-info">
 													1349
@@ -167,7 +167,7 @@
                                 <div class="m-widget24">
                                     <div class="m-widget24__item">
                                         <h4 class="m-widget24__title">
-                                            الحجوزات
+                                            Reservations
                                         </h4><br>
                                         <span class="m-widget24__stats m--font-danger">
 													567
@@ -187,7 +187,7 @@
                                 <div class="m-widget24">
                                     <div class="m-widget24__item">
                                         <h4 class="m-widget24__title">
-                                            الرحلات
+                                            Trips
                                         </h4><br>
                                         <span class="m-widget24__stats m--font-success">
 													276

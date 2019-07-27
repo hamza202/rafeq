@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>رفيق | تفاصيل الحجوزات المؤكدة</title>
+    <title>Rafeeq | Details of confirmed bookings</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -23,18 +23,17 @@
     <!--end::Web font -->
 
     <!--begin::Global Theme Styles -->
-    <!--<link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />-->
+    <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
 
-    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>
-    <!--<link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />-->
+<!--    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
+    <link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />
 
-    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>
+<!--    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
 
     <!--end::Global Theme Styles -->
 
     <!--begin::Page Vendors Styles -->
 
-    <link href="assets/vendors/custom/datatables/datatables.bundle.rtl.css" rel="stylesheet" type="text/css"/>
     <!--end::Page Vendors Styles -->
     <link rel="shortcut icon" href="assets/images/icon.png"/>
     <link rel="stylesheet" href="assets/custome.css">
@@ -118,7 +117,7 @@
                                     <div class="m-portlet__head-title">
 
                                         <h3 class="m-portlet__head-text">
-                                            تفاصيل طلبات الحجوزات
+                                            Details of confirmed bookings
                                         </h3>
                                     </div>
                                 </div>
@@ -128,7 +127,7 @@
                                            class="btn btn-brand  m-btn m-btn--custom m-btn--icon d-block text-center ">
                                     <span class="m-auto">
                                         <i class="flaticon-multimedia-2"></i>
-                                        <span>ارسال رسالة </span>
+                                        <span>Sending Message </span>
                                     </span>
                                         </a>
                                     </div>
@@ -140,39 +139,39 @@
                                         <div class="row ">
                                             <div class="col-lg-6">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label>كود الرحلة:</label>
+                                                    <label>Trip code:</label>
                                                     <input disabled="" type="text"
                                                            class="form-control m-input m-input--square"
-                                                           value="كود الرحلة">
+                                                           value="Trip code">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label>اسم الراكب:</label>
+                                                    <label>Passenger name:</label>
                                                     <input disabled="" type="text"
                                                            class="form-control m-input m-input--square"
-                                                           value="اسم الراكب">
+                                                           value="Passenger name">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label>مدينة الإنطلاق:</label>
+                                                    <label>City Start trip:</label>
                                                     <input disabled="" type="text"
                                                            class="form-control m-input m-input--square"
-                                                           value="مدينة الإنطلاق">
+                                                           value="City Start trip">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label>مدينة الوصول:</label>
+                                                    <label>City End trip:</label>
                                                     <input disabled="" type="email"
                                                            class="form-control m-input m-input--square"
-                                                           value="مدينة الوصول">
+                                                           value="City End trip">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label>عدد المقاعد المجوزة:</label>
+                                                    <label>Number of seats reserved:</label>
                                                     <input disabled="" type="text"
                                                            class="form-control m-input m-input--square"
                                                            value="4">
@@ -180,15 +179,15 @@
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label>تاريخ الرحلة:</label>
+                                                    <label>Trip date:</label>
                                                     <input disabled="" type="text"
                                                            class="form-control m-input m-input--square"
-                                                           value="تاريخ الرحلة">
+                                                           value="Trip date">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label>توقيت الرحلة:</label>
+                                                    <label>Trip timing:</label>
                                                     <input disabled="" type="text" dir="ltr"
                                                            class="form-control m-input m-input--square text-left"
                                                            value="4:50 PM - 5:00 AM">
@@ -196,85 +195,85 @@
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label>المركبة:</label>
+                                                    <label>Vehicle:</label>
                                                     <input disabled="" type="text"
                                                            class="form-control m-input m-input--square"
-                                                           value="المركبة">
+                                                           value="Vehicle">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label>عدد المقاعد الإعتيادية:</label>
+                                                    <label>Number of ordinary seats:</label>
                                                     <input disabled="" type="text"
                                                            class="form-control m-input m-input--square"
-                                                           value="عدد المقاعد الإعتيادية">
+                                                           value="Number of ordinary seats">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label>سعر المقعد الإعتيادي:</label>
+                                                    <label>Standard seat price:</label>
                                                     <input disabled="" type="text"
                                                            class="form-control m-input m-input--square"
-                                                           value="سعر المقعد الإعتيادي">
+                                                           value="Standard seat price">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label>عدد المقاعد المميزة:</label>
+                                                    <label>Number of distinctive seats:</label>
                                                     <input disabled="" type="text"
                                                            class="form-control m-input m-input--square"
-                                                           value="عدد المقاعد المميزة">
+                                                           value="Number of distinctive seats">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label>سعر المقعد المميز:</label>
+                                                    <label>Distinctive seats price:</label>
                                                     <input disabled="" type="text"
                                                            class="form-control m-input m-input--square"
-                                                           value="سعر المقعد المميز">
+                                                           value="Distinctive seats price">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label>المبلغ الإجمالي للدفع:</label>
+                                                    <label>Total amount of payment:</label>
                                                     <input disabled="" type="text"
                                                            class="form-control m-input m-input--square"
-                                                           value="عدد المقاعد المميزة">
+                                                           value="Total amount of payment">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label>طريقة الدفع:</label>
+                                                    <label>Payment method:</label>
                                                     <input disabled="" type="text"
                                                            class="form-control m-input m-input--square"
-                                                           value="طريقة الدفع">
+                                                           value="Payment method">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label>مبلغ الدفع:</label>
+                                                    <label>Payment amount:</label>
                                                     <input disabled="" type="text"
                                                            class="form-control m-input m-input--square"
-                                                           value="مبلغ الدفع">
+                                                           value="Payment amount">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label class="d-block text-left">اسماء الركاب:</label>
+                                                    <label class="d-block text-left">Passenger names:</label>
                                                     <a href="#m_modal_3" data-toggle="modal" data-target="#m_modal_3"
                                                        class="btn btn-info m-btn  w-100 m-btn--custom m-btn--icon">
                                                         <span>
                                                             <i class="fa fa-users"></i>
-                                                            <span>اسماء الركاب</span>
+                                                            <span>Passenger names</span>
                                                         </span>
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="col-lg-12">
                                                 <div class="form-group m-form__group mb-4">
-                                                    <label>ملاحظات:</label>
+                                                    <label>Notes:</label>
                                                     <textarea disabled="" type="text" rows="3"
-                                                              class="form-control m-input m-input--square">ملاحظات</textarea>
+                                                              class="form-control m-input m-input--square">Notes</textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -310,32 +309,31 @@
         <div class="modal-content">
             <form action="#">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel1">ارسال رسالة</h5>
+                    <h5 class="modal-title" id="exampleModalLabel1">Sending a Message</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <div class="form-group m-form__group">
-                        <textarea class="form-control m-input" placeholder="ادخل نص الرسالة" rows="3"></textarea>
+                        <textarea class="form-control m-input" placeholder="Enter the text of the message" rows="3"></textarea>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                    <button type="submit" class="btn btn-success">ارسال</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-success">Send</button>
                 </div>
             </form>
         </div>
     </div>
 </div>
-<div class="modal fade" id="m_modal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
+<div class="modal fade" id="m_modal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">اسماء الركاب</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Passenger names</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <span aria-hidden="true">×</span>
                 </button>
             </div>
             <div class="modal-body">
@@ -346,7 +344,7 @@
                                 <div class="m-widget2__checkbox"></div>
                                 <div class="m-widget2__desc">
                             <span class="m-widget2__text">
-                                حمزة خميس ابو عيطة
+                                Hamza abo aitah
                             </span>
                                 </div>
                             </div>
@@ -356,7 +354,7 @@
                                 <div class="m-widget2__checkbox"></div>
                                 <div class="m-widget2__desc">
                             <span class="m-widget2__text">
-                                حمزة خميس ابو عيطة
+                                Hamza abo aitah
                             </span>
                                 </div>
                             </div>
@@ -366,7 +364,7 @@
                                 <div class="m-widget2__checkbox"></div>
                                 <div class="m-widget2__desc">
                             <span class="m-widget2__text">
-                                حمزة خميس ابو عيطة
+                                Hamza abo aitah
                             </span>
                                 </div>
                             </div>
@@ -376,7 +374,7 @@
                                 <div class="m-widget2__checkbox"></div>
                                 <div class="m-widget2__desc">
                             <span class="m-widget2__text">
-                                حمزة خميس ابو عيطة
+                                Hamza abo aitah
                             </span>
                                 </div>
                             </div>
@@ -385,7 +383,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>

@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>رفيق | تفاصيل الرحلة</title>
+    <title>Rafeeq | trip details</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -23,12 +23,12 @@
     <!--end::Web font -->
 
     <!--begin::Global Theme Styles -->
-    <!--<link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />-->
+    <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
 
-    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>
-    <!--<link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />-->
+<!--    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
+    <link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />
 
-    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>
+<!--    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
 
     <!--end::Global Theme Styles -->
 
@@ -111,7 +111,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">تفاصيل الرحلة</h3>
+                        <h3 class="m-subheader__title ">Trip details</h3>
                     </div>
                 </div>
             </div>
@@ -128,90 +128,90 @@
                                             <div class="row ">
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>تبدأ الرحلة من:</label>
+                                                        <label>Trip begins from:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="تبدأ الرحلة من">
+                                                               value="Trip begins from">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>تنتهي الرحلة في:</label>
+                                                        <label>Trip ends at:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="تنتهي الرحلة في">
+                                                               value="Trip ends at">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>التاريخ:</label>
+                                                        <label>Date:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="التاريخ">
+                                                               value="Date">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>الوقت:</label>
+                                                        <label>Time:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="الوقت">
+                                                               value="Time">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>سيارة:</label>
+                                                        <label>Car model:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="موديل السيارة">
+                                                               value="car model">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>الحالة:</label>
+                                                        <label>State:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="الحالة">
+                                                               value="State">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>سعر المقعد الإعتيادي:</label>
+                                                        <label>Standard seat price:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="سعر المقعد الإعتيادي">
+                                                               value="20$">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>سعر المقعد المميز:</label>
+                                                        <label>Special seat price:</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="سعر المقعد المميز">
+                                                               value="10$">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>السعر الإجمالي للرحلة:</label>
+                                                        <label>Total trip price :</label>
                                                         <input disabled="" type="text"
                                                                class="form-control m-input m-input--square"
-                                                               value="السعر الإجمالي للرحلة">
+                                                               value="Total trip price">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label class="d-block text-left">اسماء الركاب:</label>
+                                                        <label class="d-block text-left">Passenger names:</label>
                                                         <a href="#m_modal_3" data-toggle="modal" data-target="#m_modal_3" class="btn btn-info m-btn  w-100 m-btn--custom m-btn--icon">
                                                         <span>
                                                             <i class="fa fa-users"></i>
-                                                            <span>اسماء الركاب</span>
+                                                            <span>Passenger names</span>
                                                         </span>
                                                         </a>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label class="d-block text-left">تقيم الرحلة:</label>
+                                                        <label class="d-block text-left">Evaluate trip:</label>
                                                         <div class="product-reviews-summary in-comment">
                                                             <div class="rating-summary">
                                                                 <div class="rating-result" title="70%">
@@ -231,7 +231,7 @@
                                                             </div>
                                                             <div class="m-widget4__info">
                                                                         <span class="m-widget4__text">
-                                                                            السائق
+                                                                            Driver
                                                                         </span>
                                                             </div>
                                                             <div class="m-widget4__ext">
@@ -244,7 +244,7 @@
                                                 </div>
                                             </div>
                                             <div class="form-group m-form__group ">
-
+                                                <div id="map"></div>
                                             </div>
                                         </div>
                                     </form>
@@ -278,7 +278,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">اسماء الركاب</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Passenger names</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
@@ -291,7 +291,7 @@
                                 <div class="m-widget2__checkbox"></div>
                                 <div class="m-widget2__desc">
                             <span class="m-widget2__text">
-                                حمزة خميس ابو عيطة
+                                Hamza abo aitah
                             </span>
                                 </div>
                             </div>
@@ -301,7 +301,7 @@
                                 <div class="m-widget2__checkbox"></div>
                                 <div class="m-widget2__desc">
                             <span class="m-widget2__text">
-                                حمزة خميس ابو عيطة
+                                Hamza abo aitah
                             </span>
                                 </div>
                             </div>
@@ -311,7 +311,7 @@
                                 <div class="m-widget2__checkbox"></div>
                                 <div class="m-widget2__desc">
                             <span class="m-widget2__text">
-                                حمزة خميس ابو عيطة
+                                Hamza abo aitah
                             </span>
                                 </div>
                             </div>
@@ -321,7 +321,7 @@
                                 <div class="m-widget2__checkbox"></div>
                                 <div class="m-widget2__desc">
                             <span class="m-widget2__text">
-                                حمزة خميس ابو عيطة
+                                Hamza abo aitah
                             </span>
                                 </div>
                             </div>
@@ -330,7 +330,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
@@ -345,18 +345,46 @@
 <script>
 
     function initMap() {
-        var myLatLng = {lat: -25.363, lng: 131.044};
+        var myLatLng = {lat: 26.052465, lng: 44.486588};
+        var flightPlanCoordinates = [
+            {lat: 24.627791, lng: 46.716011},
+            {lat: 24.782371, lng: 45.452962},
+            {lat: 26.052465, lng: 44.486588},
+            {lat: 26.917784, lng: 42.949175},
+            {lat: 27.287320, lng: 41.378206}
+        ];
 
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 15,
-            center: myLatLng
+            zoom: 6,
+            center: myLatLng,
         });
+        var flightPath = new google.maps.Polyline({
+            path: flightPlanCoordinates,
+            geodesic: true,
+            strokeColor: '#f4516c',
+            strokeOpacity: 1.0,
+            strokeWeight: 3
+        });
+        //ماركرات واستراحات
+        var beaches = [
+            ['locating-2', 24.627791, 46.716011],
+            ['locating-1', 24.782371, 45.452962],
+            ['locating-1', 26.052465, 44.486588],
+            ['locating-1', 26.917784, 42.949175],
+            ['locating', 27.287320, 41.378206]
+        ];
+        for (var i = 0; i < beaches.length; i++) {
+            var beach = beaches[i];
+            var marker = new google.maps.Marker({
+                position: {lat: beach[1], lng: beach[2]},
+                map: map,
+                icon: './assets/images/'+ beach[0]+'.png',
+                // shape: shape,
+                // zIndex: beach[3]
+            });
+        }
+        flightPath.setMap(map);
 
-        var marker = new google.maps.Marker({
-            position: myLatLng,
-            map: map,
-            title: 'Hello World!'
-        });
     }
 </script>
 <script async defer

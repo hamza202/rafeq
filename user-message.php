@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>رفيق | المستخدمين</title>
+    <title>Rafeeq | Users Message </title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -23,18 +23,16 @@
     <!--end::Web font -->
 
     <!--begin::Global Theme Styles -->
-    <!--<link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />-->
-
-    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>
-    <!--<link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />-->
-
-    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css"/>
+    <!--    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
+    <link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css"/>
+    <!--    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
 
     <!--end::Global Theme Styles -->
 
     <!--begin::Page Vendors Styles -->
 
-    <link href="assets/vendors/custom/datatables/datatables.bundle.rtl.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/vendors/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css"/>
     <!--end::Page Vendors Styles -->
     <link rel="shortcut icon" href="assets/images/icon.png"/>
     <link rel="stylesheet" href="assets/custome.css">
@@ -115,7 +113,7 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    الرسائل
+                                    Message
                                 </h3>
                             </div>
                         </div>
@@ -128,25 +126,25 @@
                                 <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>عنوان الرسالة</th>
-                                    <th>نص الرسالة</th>
-                                    <th>تاريخ الإرسال</th>
-                                    <th>وقت الإرسال</th>
-                                    <th>ارسال رسالة</th>
+                                    <th>Title</th>
+                                    <th>Text</th>
+                                    <th>Sending Date</th>
+                                    <th>Send time</th>
+                                    <th>Send Message</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>عنوان الرسالة</td>
+                                    <td>Title</td>
                                     <td>
                                         <a href="#m_modal_4" data-toggle="modal" data-target="#m_modal_5"
                                            class="btn btn-info m-btn m-btn--icon m-btn--icon-only ">
                                             <i class="la la-comment"></i>
                                         </a>
                                     </td>
-                                    <td>تاريخ الإرسال</td>
-                                    <td>وقت الإرسال</td>
+                                    <td>Sending Date</td>
+                                    <td>Sending Time</td>
                                     <td>
                                         <a href="#m_modal_4" data-toggle="modal" data-target="#m_modal_4"
                                            class="btn btn-brand m-btn m-btn--icon m-btn--icon-only ">
@@ -156,15 +154,15 @@
                                 </tr>
                                 <tr>
                                     <td>1</td>
-                                    <td>عنوان الرسالة</td>
+                                    <td>Title</td>
                                     <td>
                                         <a href="#m_modal_4" data-toggle="modal" data-target="#m_modal_5"
                                            class="btn btn-info m-btn m-btn--icon m-btn--icon-only ">
                                             <i class="la la-comment"></i>
                                         </a>
                                     </td>
-                                    <td>تاريخ الإرسال</td>
-                                    <td>وقت الإرسال</td>
+                                    <td>Sending Date</td>
+                                    <td>Sending Time</td>
                                     <td>
                                         <a href="#m_modal_4" data-toggle="modal" data-target="#m_modal_4"
                                            class="btn btn-brand m-btn m-btn--icon m-btn--icon-only ">
@@ -174,15 +172,15 @@
                                 </tr>
                                 <tr>
                                     <td>1</td>
-                                    <td>عنوان الرسالة</td>
+                                    <td>Title</td>
                                     <td>
                                         <a href="#m_modal_4" data-toggle="modal" data-target="#m_modal_5"
                                            class="btn btn-info m-btn m-btn--icon m-btn--icon-only ">
                                             <i class="la la-comment"></i>
                                         </a>
                                     </td>
-                                    <td>تاريخ الإرسال</td>
-                                    <td>وقت الإرسال</td>
+                                    <td>Sending Date</td>
+                                    <td>Sending Time</td>
                                     <td>
                                         <a href="#m_modal_4" data-toggle="modal" data-target="#m_modal_4"
                                            class="btn btn-brand m-btn m-btn--icon m-btn--icon-only ">
@@ -192,15 +190,15 @@
                                 </tr>
                                 <tr>
                                     <td>1</td>
-                                    <td>عنوان الرسالة</td>
+                                    <td>Title</td>
                                     <td>
                                         <a href="#m_modal_4" data-toggle="modal" data-target="#m_modal_5"
                                            class="btn btn-info m-btn m-btn--icon m-btn--icon-only ">
                                             <i class="la la-comment"></i>
                                         </a>
                                     </td>
-                                    <td>تاريخ الإرسال</td>
-                                    <td>وقت الإرسال</td>
+                                    <td>Sending Date</td>
+                                    <td>Sending Time</td>
                                     <td>
                                         <a href="#m_modal_4" data-toggle="modal" data-target="#m_modal_4"
                                            class="btn btn-brand m-btn m-btn--icon m-btn--icon-only ">
@@ -240,23 +238,23 @@
     <div class="modal-dialog modal-md" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">نص الرسالة</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Message Text</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 <p>
-                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث
-                    يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
-                    التطبيق.
-                    إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن
-                    يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج
-                    العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
@@ -267,19 +265,19 @@
         <div class="modal-content">
             <form action="#">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel1">ارسال رسالة</h5>
+                    <h5 class="modal-title" id="exampleModalLabel1">Send Message</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <div class="form-group m-form__group">
-                        <textarea class="form-control m-input" placeholder="ادخل نص الرسالة" rows="3"></textarea>
+                        <textarea class="form-control m-input" placeholder="Enter the text of the message" rows="3"></textarea>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                    <button type="submit" class="btn btn-success">ارسال</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-success">Send</button>
                 </div>
             </form>
         </div>

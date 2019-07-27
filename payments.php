@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>رفيق | المستخدمين</title>
+    <title>Rafeeq | User payments</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -23,12 +23,12 @@
     <!--end::Web font -->
 
     <!--begin::Global Theme Styles -->
-    <!--<link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />-->
+    <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css"/>
 
-    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>
-    <!--<link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />-->
+    <!--    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
+    <link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css"/>
 
-    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>
+    <!--    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
 
     <!--end::Global Theme Styles -->
 
@@ -114,7 +114,7 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    دفعات المستخدمين
+                                    User payments
                                 </h3>
                             </div>
                         </div>
@@ -127,46 +127,51 @@
                                 <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>الرحلة</th>
-                                    <th>المبلغ</th>
-                                    <th>طريقة الدفع</th>
+                                    <th>Trips</th>
+                                    <th>Amount</th>
+                                    <th>Payment method</th>
                                     <th>الحالة</th>
-                                    <th>ارجاع</th>
+                                    <th>Reversion</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>الرحلة</td>
-                                    <td>المبلغ</td>
-                                    <td>طريقة الدفع</td>
-                                    <td><span class="m-badge  m-badge--success m-badge--wide">ارجاع</span></td>
+                                    <td>Trips</td>
+                                    <td>Amount</td>
+                                    <td>Payment method</td>
+                                    <td><span class="m-badge  m-badge--success m-badge--wide">Reversion</span></td>
                                     <td>
-                                        <a href="#" class="btn btn-sm btn-primary m-btn m-btn--icon btn-lg m-btn--icon-only">
+                                        <a href="#m_modal_6" data-toggle="modal" data-target="#m_modal_6"
+                                           class="btn btn-sm btn-primary m-btn m-btn--icon btn-lg m-btn--icon-only">
                                             <i class="fa fa-reply"></i>
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>1</td>
-                                    <td>الرحلة</td>
-                                    <td>المبلغ</td>
-                                    <td>طريقة الدفع</td>
-                                    <td><span class="m-badge  m-badge--info m-badge--wide">ارجاع مع خصم</span></td>
+                                    <td>Trips</td>
+                                    <td>Amount</td>
+                                    <td>Payment method</td>
                                     <td>
-                                        <a href="#" class="btn btn-sm btn-primary m-btn m-btn--icon btn-lg m-btn--icon-only">
+                                        <span class="m-badge  m-badge--info m-badge--wide">Reversion with discount</span>
+                                    </td>
+                                    <td>
+                                        <a href="#m_modal_6" data-toggle="modal" data-target="#m_modal_6"
+                                           class="btn btn-sm btn-primary m-btn m-btn--icon btn-lg m-btn--icon-only">
                                             <i class="fa fa-reply"></i>
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>1</td>
-                                    <td>الرحلة</td>
-                                    <td>المبلغ</td>
-                                    <td>طريقة الدفع</td>
-                                    <td><span class="m-badge  m-badge--danger m-badge--wide">غير مرجع</span></td>
+                                    <td>Trips</td>
+                                    <td>Amount</td>
+                                    <td>Payment method</td>
+                                    <td><span class="m-badge  m-badge--danger m-badge--wide">Not a reference</span></td>
                                     <td>
-                                        <a href="#" class="btn btn-sm btn-primary m-btn m-btn--icon btn-lg m-btn--icon-only">
+                                        <a href="#m_modal_6" data-toggle="modal" data-target="#m_modal_6"
+                                           class="btn btn-sm btn-primary m-btn m-btn--icon btn-lg m-btn--icon-only">
                                             <i class="fa fa-reply"></i>
                                         </a>
                                     </td>
@@ -197,76 +202,49 @@
 
 <!-- end::Scroll Top -->
 
-<!--begin::Modal-->
-<div class="modal fade" id="m_modal_5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+<!-- Modal -->
+<div class="modal fade" id="m_modal_6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
      aria-hidden="true">
-    <div class="modal-dialog modal-sm" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">تفعيل الحساب</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>
-                    هل انت متأكد من تفعيل هذا الحساب؟
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                <button type="button" class="btn btn-success">تأكيد</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="m_modal_4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
-     aria-hidden="true">
-    <div class="modal-dialog modal-md" role="document">
-        <div class="modal-content">
-            <form action="#">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel1">ارسال رسالة</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="form-group m-form__group">
-                    <textarea class="form-control m-input" placeholder="ادخل نص الرسالة"  rows="3"></textarea>
+    <form action="#">
+        <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Reversion</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group m-form__group row">
+                        <label class="col-form-label col-sm-12 pb-1">Payment method</label>
+                        <div class="col-sm-12">
+                            <select class="form-control m-bootstrap-select m_selectpicker">
+                                <option>Paypal</option>
+                                <option>Mastercard</option>
+                                <option>visa card</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group m-form__group">
+                        <label for="exampleInputEmail1" class="pb-1 mb-0">Amount</label>
+                        <div class="input-group amount-group-btn">
+                            <input type="text" class="form-control m-input" disabled value="50" placeholder="Amount"
+                                   aria-describedby="basic-addon2">
+                            <div class="input-group-append"><span class="input-group-text" id="basic-addon2">SAR</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                <button type="submit" class="btn btn-success">ارسال</button>
-            </div>
-            </form>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="m_modal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
-    <div class="modal-dialog modal-sm" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">تعطيل الحساب</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>
-                    هل انت متأكد من تعطيل هذا الحساب؟
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                <button type="button" class="btn btn-danger">تأكيد</button>
-            </div>
-        </div>
-    </div>
-</div>
 
+        </div>
+    </form>
+</div>
 
 
 <!--end::Modal-->
@@ -283,6 +261,8 @@
 <script src="assets/vendors/custom/datatables/datatables.bundle.js" type="text/javascript"></script>
 
 <script src="assets/demo/default/custom/crud/datatables/basic/headers.js" type="text/javascript"></script>
+<script src="assets/demo/default/custom/crud/forms/widgets/bootstrap-select.js" type="text/javascript"></script>
+
 
 <!--end::Page Scripts -->
 </body>

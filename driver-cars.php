@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>رفيق | المستخدمين</title>
+    <title>Rafeeq | Vehicle driver</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -23,18 +23,18 @@
     <!--end::Web font -->
 
     <!--begin::Global Theme Styles -->
-    <!--<link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />-->
+    <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
 
-    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>
-    <!--<link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />-->
+<!--    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
+    <link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />
 
-    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>
+<!--    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
 
     <!--end::Global Theme Styles -->
 
     <!--begin::Page Vendors Styles -->
 
-    <link href="assets/vendors/custom/datatables/datatables.bundle.rtl.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/vendors/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css"/>
     <!--end::Page Vendors Styles -->
     <link rel="shortcut icon" href="assets/images/icon.png"/>
     <link rel="stylesheet" href="assets/custome.css">
@@ -114,7 +114,7 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    مركبات السائق
+                                     Driver vehicle
                                 </h3>
                             </div>
                         </div>
@@ -127,25 +127,25 @@
                                 <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>نوع المركبة</th>
-                                    <th>موديل المركبة</th>
-                                    <th>رقم لوحة المركبة</th>
-                                    <th>سنة الصنع</th>
-                                    <th>عدد المقاعد</th>
-                                    <th>الحالة</th>
-                                    <th>عمليات</th>
-                                    <th>تفاصيل</th>
+                                    <th>vehicle type</th>
+                                    <th>vehicle model</th>
+                                    <th>Vehicle panel number</th>
+                                    <th>Manufacturing year</th>
+                                    <th>Seats number</th>
+                                    <th>State</th>
+                                    <th>Operations</th>
+                                    <th>Details</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>نوع المركبة</td>
-                                    <td>موديل المركبة</td>
+                                    <td>vehicle type</td>
+                                    <td>vehicle model</td>
                                     <td>123456</td>
-                                    <td>سنة الصنع</td>
-                                    <td>عدد المقاعد</td>
-                                    <td><span class="m-badge  m-badge--success m-badge--wide">مفعل</span></td>
+                                    <td>Manufacturing year</td>
+                                    <td>Number of seats</td>
+                                    <td><span class="m-badge  m-badge--success m-badge--wide">Enabled</span></td>
                                     <td>
                                      <span class="dropdown user-option">
                                         <a href="#"
@@ -156,7 +156,7 @@
                                         <div class="dropdown-menu dropdown-menu-left user-option">
                                             <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                data-target="#m_modal_5"><i
-                                                        class="la la-check"></i> تفعيل  </a>
+                                                        class="la la-check"></i> activation  </a>
                                         </div>
                                     </span>
                                     </td>
@@ -169,12 +169,12 @@
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>نوع المركبة</td>
-                                    <td>موديل المركبة</td>
+                                    <td>vehicle type</td>
+                                    <td>vehicle model</td>
                                     <td>123456</td>
-                                    <td>سنة الصنع</td>
-                                    <td>عدد المقاعد</td>
-                                    <td><span class="m-badge  m-badge--danger m-badge--wide">معطل</span></td>
+                                    <td>Manufacturing year</td>
+                                    <td>Number of seats</td>
+                                    <td><span class="m-badge  m-badge--danger m-badge--wide">Disabled</span></td>
                                     <td>
                                      <span class="dropdown user-option">
                                         <a href="#"
@@ -185,7 +185,7 @@
                                         <div class="dropdown-menu dropdown-menu-left user-option">
                                             <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
                                                data-target="#m_modal_3"><i
-                                                        class="la la-power-off"></i> تعطيل  </a>
+                                                        class="la la-power-off"></i> Disable  </a>
 
                                         </div>
                                     </span>
@@ -199,12 +199,12 @@
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>نوع المركبة</td>
-                                    <td>موديل المركبة</td>
+                                    <td>vehicle type</td>
+                                    <td>vehicle model</td>
                                     <td>123456</td>
-                                    <td>سنة الصنع</td>
-                                    <td>عدد المقاعد</td>
-                                    <td><span class="m-badge  m-badge--success m-badge--wide">مفعل</span></td>
+                                    <td>Manufacturing year</td>
+                                    <td>Number of seats</td>
+                                    <td><span class="m-badge  m-badge--success m-badge--wide">Enabled</span></td>
                                     <td>
                                      <span class="dropdown user-option">
                                         <a href="#"
@@ -215,7 +215,7 @@
                                         <div class="dropdown-menu dropdown-menu-left user-option">
                                             <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                data-target="#m_modal_5"><i
-                                                        class="la la-check"></i> تفعيل  </a>
+                                                        class="la la-check"></i> activation  </a>
                                         </div>
                                     </span>
                                     </td>
@@ -258,14 +258,14 @@
     <div class="modal-dialog modal-sm" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">تفعيل الحساب</h5>
+                <h5 class="modal-title" id="exampleModalLabel">activation الحساب</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 <p>
-                    هل انت متأكد من تفعيل هذا الحساب؟
+                    هل انت متأكد من activation هذا الحساب؟
                 </p>
             </div>
             <div class="modal-footer">
@@ -280,14 +280,14 @@
     <div class="modal-dialog modal-sm" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">تعطيل الحساب</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Disable الحساب</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 <p>
-                    هل انت متأكد من تعطيل هذا الحساب؟
+                    هل انت متأكد من Disable هذا الحساب؟
                 </p>
             </div>
             <div class="modal-footer">
