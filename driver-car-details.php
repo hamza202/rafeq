@@ -108,11 +108,24 @@
         <!-- END: Left Aside -->
         <div class="m-grid__item m-grid__item--fluid m-wrapper my-profile">
 
-            <!-- BEGIN: Subheader -->
             <div class="m-subheader ">
-                <div class="d-flex align-items-center">
-                    <div class="mr-auto">
+                <div class="row align-items-center">
+                    <div class="col-sm-4">
                         <h3 class="m-subheader__title ">Details of the passenger</h3>
+                    </div>
+                    <div class="col-sm-8 text-sm-right">
+                        <ul class="list-inline state-list mb-0 mt-3 mt-sm-0">
+                            <li class="list-inline-item ">
+                                <span class="shadow-sm ">
+                                    Insurance
+                                </span>
+                            </li>
+                            <li class="list-inline-item active">
+                                <span class="shadow-sm">
+                                    Driving license
+                                </span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

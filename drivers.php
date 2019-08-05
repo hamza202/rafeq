@@ -164,13 +164,11 @@
                                             <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                data-target="#m_modal_5"><i
                                                         class="la la-check"></i> Activation  </a>
-                                              <a class="dropdown-item" href="user-services.php">
-                                                   <i class="fab fa-fly"></i> Trips</a>
                                              <a class="dropdown-item" href="driver-tours.php">
-                                                   <i class="fas fa-plane"></i> Driver Tours</a>
+                                                   <i class="fas fa-plane"></i> Driver Trips</a>
                                              <a class="dropdown-item" href="driver-cars.php">
                                                    <i class="fa fa-car"></i> Vehicles</a>
-                                            <a class="dropdown-item" href="payments.php">
+                                            <a class="dropdown-item" href="driver-payments.php">
                                                    <i class="flaticon-statistics"></i> Payments</a>
                                               <a class="dropdown-item" href="user-message.php">
                                                    <i class="la la-comment-o"></i> Driver messages</a>
@@ -205,13 +203,11 @@
                                             <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
                                                data-target="#m_modal_3"><i
                                                         class="la la-power-off"></i> Disable  </a>
-                                           <a class="dropdown-item" href="user-services.php">
-                                                   <i class="fab fa-fly"></i> Trips</a>
                                              <a class="dropdown-item" href="driver-tours.php">
-                                                   <i class="fas fa-plane"></i> Driver Tours</a>
+                                                   <i class="fas fa-plane"></i> Driver Trips</a>
                                              <a class="dropdown-item" href="driver-cars.php">
                                                    <i class="fa fa-car"></i> Vehicles</a>
-                                            <a class="dropdown-item" href="payments.php">
+                                            <a class="dropdown-item" href="driver-payments.php">
                                                    <i class="flaticon-statistics"></i> Payments</a>
                                               <a class="dropdown-item" href="user-message.php">
                                                    <i class="la la-comment-o"></i> Driver messages</a>
@@ -250,13 +246,11 @@
                                             <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
                                                data-target="#m_modal_3"><i
                                                         class="la la-power-off"></i> Disable  </a>
-                                             <a class="dropdown-item" href="user-services.php">
-                                                   <i class="fab fa-fly"></i> Trips</a>
                                              <a class="dropdown-item" href="driver-tours.php">
-                                                   <i class="fas fa-plane"></i> Driver Tours</a>
+                                                   <i class="fas fa-plane"></i> Driver Trips</a>
                                              <a class="dropdown-item" href="driver-cars.php">
                                                    <i class="fa fa-car"></i> Vehicles</a>
-                                            <a class="dropdown-item" href="payments.php">
+                                            <a class="dropdown-item" href="driver-payments.php">
                                                    <i class="flaticon-statistics"></i> Payments</a>
                                               <a class="dropdown-item" href="user-message.php">
                                                    <i class="la la-comment-o"></i> Driver messages</a>

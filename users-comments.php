@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>رفيق | تعليقات الركاب</title>
+    <title>Rafeeq | Passenger Comments</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -23,18 +23,16 @@
     <!--end::Web font -->
 
     <!--begin::Global Theme Styles -->
-    <!--<link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />-->
-
-    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>
-    <!--<link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />-->
-
-    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css"/>
+    <!--    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
+    <link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css"/>
+    <!--    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
 
     <!--end::Global Theme Styles -->
 
     <!--begin::Page Vendors Styles -->
 
-    <link href="assets/vendors/custom/datatables/datatables.bundle.rtl.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/vendors/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css"/>
     <!--end::Page Vendors Styles -->
     <link rel="shortcut icon" href="assets/images/icon.png"/>
     <link rel="stylesheet" href="assets/custome.css">
@@ -111,7 +109,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">تعليقات الركاب</h3>
+                        <h3 class="m-subheader__title ">Comments</h3>
                     </div>
                 </div>
             </div>
@@ -124,7 +122,7 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    تعليقات الركاب
+                                    Passenger Comments
                                 </h3>
                             </div>
                         </div>
@@ -138,7 +136,7 @@
                                     </div>
                                     <div class="m-widget3__info">
 														<span class="m-widget3__username">
-															مريم محمد
+															Mariam Mohammed
 														</span><br>
                                         <span class="m-widget3__time">
 															01/07/2019
@@ -147,8 +145,10 @@
                                 </div>
                                 <div class="m-widget3__body">
                                     <p class="m-widget3__text">
-                                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-                                        إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores earum fugiat
+                                        iste molestiae necessitatibus neque perferendis perspiciatis, recusandae. Alias
+                                        architecto dolorem ex fugit, mollitia necessitatibus nisi pariatur possimus quos
+                                        sequi?
                                     </p>
                                 </div>
                             </div>
@@ -159,7 +159,7 @@
                                     </div>
                                     <div class="m-widget3__info">
 														<span class="m-widget3__username">
-															حمزة ابو عيطة
+															Hamza Abo aitah
 														</span><br>
                                         <span class="m-widget3__time">
 															01/07/2019
@@ -169,8 +169,9 @@
                                 </div>
                                 <div class="m-widget3__body">
                                     <p class="m-widget3__text">
-                                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-                                        إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam,
+                                        architecto at, consequatur, eius enim et eum hic laborum laudantium molestias
+                                        necessitatibus omnis porro provident quis saepe veniam voluptates. Est!
                                     </p>
                                 </div>
                             </div>
@@ -181,7 +182,7 @@
                                     </div>
                                     <div class="m-widget3__info">
 														<span class="m-widget3__username">
-															نور احمد
+															Nourah Ahmed
 														</span><br>
                                         <span class="m-widget3__time">
 															01/07/2019
@@ -191,8 +192,14 @@
                                 </div>
                                 <div class="m-widget3__body">
                                     <p class="m-widget3__text">
-                                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-                                        إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur
+                                        cupiditate distinctio doloremque dolorum earum eligendi eveniet excepturi,
+                                        incidunt magnam nesciunt nobis nulla, officia quisquam reiciendis veniam vitae.
+                                        Eligendi, illum.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet animi,
+                                        debitis dicta eaque facere incidunt mollitia neque qui repellat repudiandae
+                                        rerum, saepe, tempore vitae voluptatum. Exercitationem nihil praesentium
+                                        similique.
                                     </p>
                                 </div>
                             </div>

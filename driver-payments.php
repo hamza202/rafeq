@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>Rafeeq | User payments</title>
+    <title>Rafeeq | Driver payments</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -112,7 +112,7 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    User payments
+                                    Driver payments
                                 </h3>
                             </div>
                         </div>
@@ -125,52 +125,53 @@
                                 <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>Trips</th>
-                                    <th>Amount</th>
-                                    <th>Payment method</th>
-                                    <th>الحالة</th>
-                                    <th>Reversion</th>
+                                    <th>Trip code</th>
+                                    <th>Payment</th>
+                                    <th>From</th>
+                                    <th>To</th>
+                                    <th>Payment status</th>
+                                    <th>transformation</th>
+                                    <th>details</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Trips</td>
-                                    <td>Amount</td>
-                                    <td>Payment method</td>
-                                    <td><span class="m-badge  m-badge--success m-badge--wide">Reversion</span></td>
+                                    <td>Trip code</td>
+                                    <td>Payment</td>
+                                    <td>From</td>
+                                    <td>To</td>
+                                    <td><span class="m-badge  m-badge--success m-badge--wide">Payment was made</span></td>
                                     <td>
                                         <a href="#m_modal_6" data-toggle="modal" data-target="#m_modal_6"
                                            class="btn btn-sm btn-primary m-btn m-btn--icon btn-lg m-btn--icon-only">
-                                            <i class="fa fa-reply"></i>
+                                            <i class="fas fa-dollar-sign"></i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="#" class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
+                                            <i class="far fa-eye"></i>
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>1</td>
-                                    <td>Trips</td>
-                                    <td>Amount</td>
-                                    <td>Payment method</td>
+                                    <td>2</td>
+                                    <td>Trip code</td>
+                                    <td>Payment</td>
+                                    <td>From</td>
+                                    <td>To</td>
                                     <td>
-                                        <span class="m-badge  m-badge--info m-badge--wide">Reversion with discount</span>
+                                        <span class="m-badge  m-badge--info m-badge--warning">Under payment</span>
                                     </td>
                                     <td>
                                         <a href="#m_modal_6" data-toggle="modal" data-target="#m_modal_6"
                                            class="btn btn-sm btn-primary m-btn m-btn--icon btn-lg m-btn--icon-only">
-                                            <i class="fa fa-reply"></i>
+                                            <i class="fas fa-dollar-sign"></i>
                                         </a>
                                     </td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Trips</td>
-                                    <td>Amount</td>
-                                    <td>Payment method</td>
-                                    <td><span class="m-badge  m-badge--danger m-badge--wide">Not a reference</span></td>
                                     <td>
-                                        <a href="#m_modal_6" data-toggle="modal" data-target="#m_modal_6"
-                                           class="btn btn-sm btn-primary m-btn m-btn--icon btn-lg m-btn--icon-only">
-                                            <i class="fa fa-reply"></i>
+                                        <a href="#" class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
+                                            <i class="far fa-eye"></i>
                                         </a>
                                     </td>
                                 </tr>
@@ -208,7 +209,7 @@
 
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Reversion</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Transformation</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>

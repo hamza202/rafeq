@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>رفيق | الحجوزات</title>
+    <title>Rafeeq | Reservations</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -110,7 +110,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">الحجوزات</h3>
+                        <h3 class="m-subheader__title ">Reservations</h3>
                     </div>
                 </div>
             </div>
@@ -123,15 +123,15 @@
                                     role="tablist">
                                     <li class="nav-item m-tabs__item">
                                         <a class="nav-link m-tabs__link active" data-toggle="tab" href="#m_tabs_6_1"
-                                           role="tab">طلبات الحجوزات</a>
+                                           role="tab">Requests reservation </a>
                                     </li>
                                     <li class="nav-item m-tabs__item">
                                         <a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_6_2"
-                                           role="tab">حجوزات مؤكدة</a>
+                                           role="tab">Confirmed reservations </a>
                                     </li>
                                     <li class="nav-item m-tabs__item">
                                         <a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_6_3"
-                                           role="tab">حجوزات سابقة</a>
+                                           role="tab">Previous reservations</a>
                                     </li>
                                 </ul>
                             </div>
@@ -154,21 +154,21 @@
                                                         <thead>
                                                         <tr>
                                                             <th>ID</th>
-                                                            <th>كود الرحلة</th>
-                                                            <th>من</th>
-                                                            <th>الى</th>
-                                                            <th>حالة الطلب</th>
-                                                            <th>ارسال رسالة</th>
-                                                            <th>تفاصيل</th>
+                                                            <th>Trip code</th>
+                                                            <th>From</th>
+                                                            <th>To</th>
+                                                            <th>Order status</th>
+                                                            <th>Send message</th>
+                                                            <th>Details</th>
                                                         </tr>
                                                         </thead>
                                                         <tbody>
                                                         <tr>
                                                             <td>1</td>
-                                                            <td>كود الرحلة</td>
-                                                            <td>من</td>
-                                                            <td>الى</td>
-                                                            <td><span class="m-badge  m-badge--success m-badge--wide">قيد المراجعة</span>
+                                                            <td>Trip code</td>
+                                                            <td>From</td>
+                                                            <td>To</td>
+                                                            <td><span class="m-badge  m-badge--success m-badge--wide">Under review</span>
                                                             </td>
                                                             <td class="text-center">
                                                                 <a
@@ -187,10 +187,10 @@
                                                         </tr>
                                                         <tr>
                                                             <td>2</td>
-                                                            <td>كود الرحلة</td>
-                                                            <td>من</td>
-                                                            <td>الى</td>
-                                                            <td><span class="m-badge  m-badge--warning m-badge--wide">في انتظار الدفع</span>
+                                                            <td>Trip code</td>
+                                                            <td>From</td>
+                                                            <td>To</td>
+                                                            <td><span class="m-badge  m-badge--warning m-badge--wide">Waiting for payment</span>
                                                             </td>
                                                             <td class="text-center">
                                                                 <a
@@ -209,10 +209,10 @@
                                                         </tr>
                                                         <tr>
                                                             <td>3</td>
-                                                            <td>كود الرحلة</td>
-                                                            <td>من</td>
-                                                            <td>الى</td>
-                                                            <td><span class="m-badge  m-badge--danger m-badge--wide">ملغي</span>
+                                                            <td>Trip code</td>
+                                                            <td>From</td>
+                                                            <td>To</td>
+                                                            <td><span class="m-badge  m-badge--danger m-badge--wide">Canceled</span>
                                                             </td>
                                                             <td class="text-center">
                                                                 <a
@@ -254,21 +254,21 @@
                                                         <thead>
                                                         <tr>
                                                             <th>ID</th>
-                                                            <th>كود الرحلة</th>
-                                                            <th>التاريخ/الوقت</th>
-                                                            <th>من</th>
-                                                            <th>الى</th>
-                                                            <th>ارسال رسالة</th>
-                                                            <th>تفاصيل</th>
+                                                            <th>Trip code</th>
+                                                            <th>Date / Time</th>
+                                                            <th>From</th>
+                                                            <th>To</th>
+                                                            <th>Send message</th>
+                                                            <th>Details</th>
                                                         </tr>
                                                         </thead>
                                                         <tbody>
                                                         <tr>
                                                             <td>1</td>
-                                                            <td>كود الرحلة</td>
-                                                            <td>التاريخ/الوقت</td>
-                                                            <td>من</td>
-                                                            <td>الى</td>
+                                                            <td>Trip code</td>
+                                                            <td>Date / Time</td>
+                                                            <td>From</td>
+                                                            <td>To</td>
                                                             <td class="text-center">
                                                                 <a
                                                                         class="btn btn-outline-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air"
@@ -286,10 +286,10 @@
                                                         </tr>
                                                         <tr>
                                                             <td>2</td>
-                                                            <td>كود الرحلة</td>
-                                                            <td>التاريخ/الوقت</td>
-                                                            <td>من</td>
-                                                            <td>الى</td>
+                                                            <td>Trip code</td>
+                                                            <td>Date / Time</td>
+                                                            <td>From</td>
+                                                            <td>To</td>
                                                             <td class="text-center">
                                                                 <a
                                                                         class="btn btn-outline-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air"
@@ -307,10 +307,10 @@
                                                         </tr>
                                                         <tr>
                                                             <td>3</td>
-                                                            <td>كود الرحلة</td>
-                                                            <td>التاريخ/الوقت</td>
-                                                            <td>من</td>
-                                                            <td>الى</td>
+                                                            <td>Trip code</td>
+                                                            <td>Date / Time</td>
+                                                            <td>From</td>
+                                                            <td>To</td>
                                                             <td class="text-center">
                                                                 <a
                                                                         class="btn btn-outline-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air"
@@ -351,25 +351,25 @@
                                                         <thead>
                                                         <tr>
                                                             <th>ID</th>
-                                                            <th>كود الرحلة</th>
-                                                            <th>التاريخ/الوقت</th>
-                                                            <th>حالة الطلب</th>
-                                                            <th>من</th>
-                                                            <th>الى</th>
-                                                            <th>ارسال رسالة</th>
-                                                            <th>تفاصيل</th>
+                                                            <th>Trip code</th>
+                                                            <th>Date / Time</th>
+                                                            <th>Order status</th>
+                                                            <th>From</th>
+                                                            <th>To</th>
+                                                            <th>Send message</th>
+                                                            <th>Details</th>
                                                         </tr>
                                                         </thead>
                                                         <tbody>
                                                         <tr>
                                                             <td>1</td>
-                                                            <td>كود الرحلة</td>
-                                                            <td>التاريخ/الوقت</td>
+                                                            <td>Trip code</td>
+                                                            <td>Date / Time</td>
                                                             <td>
-                                                                <span class="m-badge  m-badge--warning m-badge--wide">منتهي</span>
+                                                                <span class="m-badge  m-badge--warning m-badge--wide">Finished</span>
                                                             </td>
-                                                            <td>من</td>
-                                                            <td>الى</td>
+                                                            <td>From</td>
+                                                            <td>To</td>
                                                             <td class="text-center">
                                                                 <a
                                                                         class="btn btn-outline-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air"
@@ -387,13 +387,13 @@
                                                         </tr>
                                                         <tr>
                                                             <td>2</td>
-                                                            <td>كود الرحلة</td>
-                                                            <td>التاريخ/الوقت</td>
+                                                            <td>Trip code</td>
+                                                            <td>Date / Time</td>
                                                             <td>
-                                                                <span class="m-badge  m-badge--danger m-badge--wide">مغلق</span>
+                                                                <span class="m-badge  m-badge--danger m-badge--wide">Closed</span>
                                                             </td>
-                                                            <td>من</td>
-                                                            <td>الى</td>
+                                                            <td>From</td>
+                                                            <td>To</td>
                                                             <td class="text-center">
                                                                 <a
                                                                         class="btn btn-outline-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air"
@@ -411,13 +411,13 @@
                                                         </tr>
                                                         <tr>
                                                             <td>3</td>
-                                                            <td>كود الرحلة</td>
-                                                            <td>التاريخ/الوقت</td>
+                                                            <td>Trip code</td>
+                                                            <td>Date / Time</td>
                                                             <td>
-                                                                <span class="m-badge  m-badge--danger m-badge--wide">مغلق</span>
+                                                                <span class="m-badge  m-badge--danger m-badge--wide">Closed</span>
                                                             </td>
-                                                            <td>من</td>
-                                                            <td>الى</td>
+                                                            <td>From</td>
+                                                            <td>To</td>
                                                             <td class="text-center">
                                                                 <a
                                                                         class="btn btn-outline-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air"
@@ -471,7 +471,7 @@
         <div class="modal-content">
             <form action="#">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel1">ارسال رسالة</h5>
+                    <h5 class="modal-title" id="exampleModalLabel1">Send message</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
