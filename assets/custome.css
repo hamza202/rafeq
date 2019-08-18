@@ -262,7 +262,7 @@ span.infobox_rate {
 }
 .dataTables_wrapper .dataTable .dropdown-menu{
     width: auto !important;
-    min-width: 200px;
+
 }
 .user-message  .m-widget3__info{
     padding-right: 0 !important;
@@ -454,4 +454,8 @@ ul#imageGallery > li:hover{
 }
 table.table-bordered.dataTable th{
     text-transform: capitalize;
+}
+.shadow-0{
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }

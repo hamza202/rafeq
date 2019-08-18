@@ -48,13 +48,13 @@
 
             </li>
             <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
-                <a href="users.php" class="m-menu__link m-menu__toggle">
+                <a href="reservations.php" class="m-menu__link m-menu__toggle">
                     <i class="m-menu__link-icon fa fa-ban">
                     </i><span class="m-menu__link-text">Reservations</span>
                 </a>
             </li>
             <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
-                <a href="users.php" class="m-menu__link m-menu__toggle">
+                <a href="all-payments.php" class="m-menu__link m-menu__toggle">
                     <i class="m-menu__link-icon fa fa-coins">
                     </i><span class="m-menu__link-text">Payments</span>
                 </a>

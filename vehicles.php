@@ -111,7 +111,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">Passengers</h3>
+                        <h3 class="m-subheader__title ">Vehicles</h3>
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    Passenger Management
+                                    All Vehicles
                                 </h3>
                             </div>
                         </div>
@@ -136,11 +136,12 @@
                                 <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>Passenger name</th>
-                                    <th>Phone number</th>
-                                    <th>City</th>
-                                    <th>Passenger type</th>
-                                    <th>status</th>
+                                    <th>Vehicle</th>
+                                    <th>Model</th>
+                                    <th>Color</th>
+                                    <th>solid</th>
+                                    <th>panel number</th>
+                                    <th>Driver</th>
                                     <th>Operations</th>
                                     <th>Details</th>
                                 </tr>
@@ -148,11 +149,12 @@
                                 <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Hamza abo aitah</td>
-                                    <td>0595779009</td>
-                                    <td>City</td>
-                                    <td>Passenger type</td>
-                                    <td><span class="m-badge  m-badge--success m-badge--wide">Enabled</span></td>
+                                    <td>Kia Soul</td>
+                                    <td>2019</td>
+                                    <td>Red</td>
+                                    <td>five</td>
+                                    <td>123456</td>
+                                    <td><a href="driver-profile.php" target="_blank">hamza</a></td>
                                     <td>
                                      <span class="dropdown user-option">
                                         <a href="#"
@@ -164,20 +166,11 @@
                                             <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
                                                data-target="#m_modal_5"><i
                                                         class="la la-check"></i> Activation  </a>
-                                              <a class="dropdown-item" href="user-services.php">
-                                                   <i class="la la-calendar-check-o"></i> Reservations</a>
-                                            <a class="dropdown-item" href="payments.php">
-                                                   <i class="flaticon-statistics"></i> Payments</a>
-                                              <a class="dropdown-item" href="user-message.php">
-                                                   <i class="la la-comment-o"></i> User messages</a>
-                                            <a class="dropdown-item" href="#m_modal_4" data-toggle="modal"
-                                               data-target="#m_modal_4">
-                                                   <i class="flaticon-multimedia-2"></i> Send message</a>
                                         </div>
                                     </span>
                                     </td>
                                     <td>
-                                        <a href="user-profile.php"
+                                        <a href="vehicles-details.php"
                                            class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
                                             <i class="far fa-eye"></i>
                                         </a>
@@ -185,11 +178,12 @@
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>Hamza abo aitah</td>
-                                    <td>0595779009</td>
-                                    <td>City</td>
-                                    <td>Passenger type</td>
-                                    <td><span class="m-badge  m-badge--danger m-badge--wide">معطل</span></td>
+                                    <td>Kia Soul</td>
+                                    <td>2019</td>
+                                    <td>Red</td>
+                                    <td>Eight</td>
+                                    <td>123456</td>
+                                    <td><a href="driver-profile.php" target="_blank">hamza</a></td>
                                     <td>
                                      <span class="dropdown user-option">
                                         <a href="#"
@@ -201,22 +195,11 @@
                                             <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
                                                data-target="#m_modal_3"><i
                                                         class="la la-power-off"></i> Disable  </a>
-                                             <a class="dropdown-item" href="user-services.php">
-                                                   <i class="la la-calendar-check-o"></i> Reservations</a>
-                                            <a class="dropdown-item" href="payments.php">
-                                                   <i class="flaticon-statistics"></i> Payments</a>
-                                              <a class="dropdown-item" href="user-message.php">
-                                                   <i class="la la-comment-o"></i> User messages</a>
-                                            <a class="dropdown-item" href="#m_modal_4" data-toggle="modal"
-                                               data-target="#m_modal_4">
-                                                   <i class="la flaticon-multimedia-2"></i> Send message</a>
-
-
                                         </div>
                                     </span>
                                     </td>
                                     <td>
-                                        <a href="user-profile.php"
+                                        <a href="vehicles-details.php"
                                            class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
                                             <i class="far fa-eye"></i>
                                         </a>
@@ -224,11 +207,41 @@
                                 </tr>
                                 <tr>
                                     <td>1</td>
-                                    <td>Hamza abo aitah</td>
-                                    <td>0595779009</td>
-                                    <td>City</td>
-                                    <td>Passenger type</td>
-                                    <td><span class="m-badge  m-badge--success m-badge--wide">Enabled</span></td>
+                                    <td>Kia Soul</td>
+                                    <td>2019</td>
+                                    <td>Red</td>
+                                    <td>five</td>
+                                    <td>123456</td>
+                                    <td><a href="driver-profile.php" target="_blank">hamza</a></td>
+                                    <td>
+                                     <span class="dropdown user-option">
+                                        <a href="#"
+                                           class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill"
+                                           data-toggle="dropdown"
+                                           aria-expanded="true"><i class="la la-ellipsis-h"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-left user-option">
+                                            <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
+                                               data-target="#m_modal_5"><i
+                                                        class="la la-check"></i> Activation  </a>
+                                        </div>
+                                    </span>
+                                    </td>
+                                    <td>
+                                        <a href="vehicles-details.php"
+                                           class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Kia Soul</td>
+                                    <td>2019</td>
+                                    <td>Red</td>
+                                    <td>Eight</td>
+                                    <td>123456</td>
+                                    <td><a href="driver-profile.php" target="_blank">hamza</a></td>
                                     <td>
                                      <span class="dropdown user-option">
                                         <a href="#"
@@ -240,21 +253,11 @@
                                             <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
                                                data-target="#m_modal_3"><i
                                                         class="la la-power-off"></i> Disable  </a>
-                                             <a class="dropdown-item" href="user-services.php">
-                                                   <i class="la la-calendar-check-o"></i> Reservations</a>
-                                            <a class="dropdown-item" href="payments.php">
-                                                   <i class="flaticon-statistics"></i> Payments</a>
-                                              <a class="dropdown-item" href="user-message.php">
-                                                   <i class="la la-comment-o"></i> User messages</a>
-                                            <a class="dropdown-item" href="#m_modal_4" data-toggle="modal"
-                                               data-target="#m_modal_4">
-                                                   <i class="flaticon-multimedia-2"></i> Send message</a>
-
                                         </div>
                                     </span>
                                     </td>
                                     <td>
-                                        <a href="user-profile.php"
+                                        <a href="vehicles-details.php"
                                            class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
                                             <i class="far fa-eye"></i>
                                         </a>
@@ -292,44 +295,20 @@
     <div class="modal-dialog modal-sm" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Account activate</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Vehicle activate</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 <p>
-                    Are you sure you want to activate this account?
+                    Are you sure you want to activate this vehicle?
                 </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success">Confirmation</button>
+                <button type="button" class="btn btn-success">activate</button>
             </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="m_modal_4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
-     aria-hidden="true">
-    <div class="modal-dialog modal-md" role="document">
-        <div class="modal-content">
-            <form action="#">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel1">Sending a Message</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="form-group m-form__group">
-                        <textarea class="form-control m-input" placeholder="Enter the text of the message" rows="3"></textarea>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-success">Send</button>
-                </div>
-            </form>
         </div>
     </div>
 </div>
@@ -338,19 +317,19 @@
     <div class="modal-dialog modal-sm" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Disable account</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Vehicle disable </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 <p>
-                    Are you sure you want to disable this account?
+                    Are you sure you want to disable this vehicle?
                 </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-danger">Confirmation</button>
+                <button type="button" class="btn btn-danger">Disable</button>
             </div>
         </div>
     </div>

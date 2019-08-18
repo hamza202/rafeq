@@ -258,6 +258,7 @@
                                                             <th>Date / Time</th>
                                                             <th>From</th>
                                                             <th>To</th>
+                                                            <th>Order status</th>
                                                             <th>Send message</th>
                                                             <th>Details</th>
                                                         </tr>
@@ -269,6 +270,8 @@
                                                             <td>Date / Time</td>
                                                             <td>From</td>
                                                             <td>To</td>
+                                                            <td><span class="m-badge  m-badge--success m-badge--wide">Underway</span>
+                                                            </td>
                                                             <td class="text-center">
                                                                 <a
                                                                         class="btn btn-outline-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air"
@@ -290,6 +293,8 @@
                                                             <td>Date / Time</td>
                                                             <td>From</td>
                                                             <td>To</td>
+                                                            <td><span class="m-badge  m-badge--success m-badge--wide">Underway</span>
+                                                            </td>
                                                             <td class="text-center">
                                                                 <a
                                                                         class="btn btn-outline-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air"
@@ -311,6 +316,8 @@
                                                             <td>Date / Time</td>
                                                             <td>From</td>
                                                             <td>To</td>
+                                                            <td><span class="m-badge  m-badge--danger m-badge--wide">Canceled</span>
+                                                            </td>
                                                             <td class="text-center">
                                                                 <a
                                                                         class="btn btn-outline-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air"
@@ -353,9 +360,9 @@
                                                             <th>ID</th>
                                                             <th>Trip code</th>
                                                             <th>Date / Time</th>
-                                                            <th>Order status</th>
                                                             <th>From</th>
                                                             <th>To</th>
+                                                            <th>Order status</th>
                                                             <th>Send message</th>
                                                             <th>Details</th>
                                                         </tr>
@@ -365,11 +372,11 @@
                                                             <td>1</td>
                                                             <td>Trip code</td>
                                                             <td>Date / Time</td>
+                                                            <td>From</td>
+                                                            <td>To</td>
                                                             <td>
                                                                 <span class="m-badge  m-badge--warning m-badge--wide">Finished</span>
                                                             </td>
-                                                            <td>From</td>
-                                                            <td>To</td>
                                                             <td class="text-center">
                                                                 <a
                                                                         class="btn btn-outline-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air"
@@ -389,11 +396,11 @@
                                                             <td>2</td>
                                                             <td>Trip code</td>
                                                             <td>Date / Time</td>
+                                                            <td>From</td>
+                                                            <td>To</td>
                                                             <td>
                                                                 <span class="m-badge  m-badge--danger m-badge--wide">Closed</span>
                                                             </td>
-                                                            <td>From</td>
-                                                            <td>To</td>
                                                             <td class="text-center">
                                                                 <a
                                                                         class="btn btn-outline-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air"
@@ -413,11 +420,11 @@
                                                             <td>3</td>
                                                             <td>Trip code</td>
                                                             <td>Date / Time</td>
+                                                            <td>From</td>
+                                                            <td>To</td>
                                                             <td>
                                                                 <span class="m-badge  m-badge--danger m-badge--wide">Closed</span>
                                                             </td>
-                                                            <td>From</td>
-                                                            <td>To</td>
                                                             <td class="text-center">
                                                                 <a
                                                                         class="btn btn-outline-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air"

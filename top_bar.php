@@ -30,7 +30,7 @@
                                                 </a>
                                                 <a href="#" class="m-list-timeline__item">
                                                     <span class="m-list-timeline__badge"></span>
-                                                    <span class="m-list-timeline__text">System shutdown <span class="m-badge m-badge--success m-badge--wide">pending</span></span>
+                                                    <span class="m-list-timeline__text">System shutdown </span>
                                                     <span class="m-list-timeline__time">14 mins</span>
                                                 </a>
                                                 <a href="#" class="m-list-timeline__item">
@@ -39,30 +39,36 @@
                                                     <span class="m-list-timeline__time">20 mins</span>
                                                 </a>
                                                 <a href="#" class="m-list-timeline__item">
-                                                    <span class="m-list-timeline__badge"></span>
-                                                    <span class="m-list-timeline__text">DB overloaded 80% <span class="m-badge m-badge--info m-badge--wide">settled</span></span>
-                                                    <span class="m-list-timeline__time">1 hr</span>
+                                                    <span class="m-list-timeline__badge -m-list-timeline__badge--state-success"></span>
+                                                    <span class="m-list-timeline__text">12 new users registered</span>
+                                                    <span class="m-list-timeline__time">Just now</span>
                                                 </a>
                                                 <a href="#" class="m-list-timeline__item">
                                                     <span class="m-list-timeline__badge"></span>
-                                                    <span class="m-list-timeline__text">System error - <a href="#" class="m-link">Check</a></span>
-                                                    <span class="m-list-timeline__time">2 hrs</span>
-                                                </a>
-                                                <a href="#" class="m-list-timeline__item m-list-timeline__item--read">
-                                                    <span class="m-list-timeline__badge"></span>
-                                                    <span href="" class="m-list-timeline__text">New order received <span class="m-badge m-badge--danger m-badge--wide">urgent</span></span>
-                                                    <span class="m-list-timeline__time">7 hrs</span>
-                                                </a>
-                                                <a href="#" class="m-list-timeline__item m-list-timeline__item--read">
-                                                    <span class="m-list-timeline__badge"></span>
-                                                    <span class="m-list-timeline__text">Production server down</span>
-                                                    <span class="m-list-timeline__time">3 hrs</span>
+                                                    <span class="m-list-timeline__text">System shutdown </span>
+                                                    <span class="m-list-timeline__time">14 mins</span>
                                                 </a>
                                                 <a href="#" class="m-list-timeline__item">
                                                     <span class="m-list-timeline__badge"></span>
-                                                    <span class="m-list-timeline__text">Production server up</span>
-                                                    <span class="m-list-timeline__time">5 hrs</span>
+                                                    <span class="m-list-timeline__text">New invoice received</span>
+                                                    <span class="m-list-timeline__time">20 mins</span>
                                                 </a>
+                                                <a href="#" class="m-list-timeline__item">
+                                                    <span class="m-list-timeline__badge -m-list-timeline__badge--state-success"></span>
+                                                    <span class="m-list-timeline__text">12 new users registered</span>
+                                                    <span class="m-list-timeline__time">Just now</span>
+                                                </a>
+                                                <a href="#" class="m-list-timeline__item">
+                                                    <span class="m-list-timeline__badge"></span>
+                                                    <span class="m-list-timeline__text">System shutdown </span>
+                                                    <span class="m-list-timeline__time">14 mins</span>
+                                                </a>
+                                                <a href="#" class="m-list-timeline__item">
+                                                    <span class="m-list-timeline__badge"></span>
+                                                    <span class="m-list-timeline__text">New invoice received</span>
+                                                    <span class="m-list-timeline__time">20 mins</span>
+                                                </a>
+
                                             </div>
                                         </div>
                                     </div>
