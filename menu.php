@@ -35,18 +35,18 @@
                 </a>
 
             </li>
-            <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover">
-                <a href="message.php" class="m-menu__link m-menu__toggle">
-                    <i class="m-menu__link-icon flaticon-multimedia-2">
-                    </i>
-                    <span class="m-menu__link-title">
-                        <span class="m-menu__link-wrap"> <span class="m-menu__link-text">Messages</span>
-							<span class="m-menu__link-badge"><span class="m-badge m-badge--danger">5</span></span>
-                        </span>
-                    </span>
-                </a>
-
-            </li>
+<!--            <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover">-->
+<!--                <a href="message.php" class="m-menu__link m-menu__toggle">-->
+<!--                    <i class="m-menu__link-icon flaticon-multimedia-2">-->
+<!--                    </i>-->
+<!--                    <span class="m-menu__link-title">-->
+<!--                        <span class="m-menu__link-wrap"> <span class="m-menu__link-text">Messages</span>-->
+<!--							<span class="m-menu__link-badge"><span class="m-badge m-badge--danger">5</span></span>-->
+<!--                        </span>-->
+<!--                    </span>-->
+<!--                </a>-->
+<!---->
+<!--            </li>-->
             <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
                 <a href="reservations.php" class="m-menu__link m-menu__toggle">
                     <i class="m-menu__link-icon fa fa-ban">
@@ -59,18 +59,18 @@
                     </i><span class="m-menu__link-text">Payments</span>
                 </a>
             </li>
-            <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
-                <a href="users.php" class="m-menu__link m-menu__toggle">
-                    <i class="m-menu__link-icon fa 	fa-clipboard-list">
-                    </i><span class="m-menu__link-text">Drivers' requests</span>
-                </a>
-            </li>
-            <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
-                <a href="users.php" class="m-menu__link m-menu__toggle">
-                    <i class="m-menu__link-icon fab fa-fly">
-                    </i><span class="m-menu__link-text">Trips</span>
-                </a>
-            </li>
+<!--            <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">-->
+<!--                <a href="users.php" class="m-menu__link m-menu__toggle">-->
+<!--                    <i class="m-menu__link-icon fa 	fa-clipboard-list">-->
+<!--                    </i><span class="m-menu__link-text">Drivers' requests</span>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">-->
+<!--                <a href="users.php" class="m-menu__link m-menu__toggle">-->
+<!--                    <i class="m-menu__link-icon fab fa-fly">-->
+<!--                    </i><span class="m-menu__link-text">Trips</span>-->
+<!--                </a>-->
+<!--            </li>-->
             <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a
                         href="javascript:;" class="m-menu__link m-menu__toggle"><i
                             class="m-menu__link-icon flaticon-cogwheel-2
