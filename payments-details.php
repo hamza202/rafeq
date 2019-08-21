@@ -122,7 +122,12 @@
                                             <button class=" d-inline-block  btn btn-primary" data-toggle="modal"
                                                     data-target="#m_modal_6">
                                                 <i class="fas fa-dollar-sign"></i>
-                                                <span> Transformation</span>
+                                                <span>Transformation</span>
+                                            </button>
+                                            <button class=" d-inline-block ml-2  btn btn-danger" data-toggle="modal"
+                                                    data-target="#m_modal_6">
+                                                <i class="fa fa-reply"></i>
+                                                <span>Reversion</span>
                                             </button>
                                             <a id="Print" href="javascript:void(0);"
                                                class="btn btn-success m-btn ml-2 m-btn--custom m-btn--icon d-inline-block text-center ">
@@ -131,6 +136,7 @@
                                                     <span>Print</span>
                                                 </span>
                                             </a>
+
                                         </div>
                                     </div>
                                 </div>
@@ -140,122 +146,50 @@
                                     <div class="row ">
                                         <div class="col-lg-6">
                                             <div class="form-group m-form__group mb-4">
-                                                <label>vehicle type:</label>
+                                                <label>Trip code:</label>
                                                 <input disabled="" type="text"
                                                        class="form-control m-input m-input--square"
-                                                       value="vehicle type ">
+                                                       value="Trip code ">
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="form-group m-form__group mb-4">
-                                                <label>vehicle model:</label>
+                                                <label>Passenger name:</label>
                                                 <input disabled="" type="text"
                                                        class="form-control m-input m-input--square"
-                                                       value="vehicle model">
+                                                       value="Passenger name">
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="form-group m-form__group mb-4">
-                                                <label>Vehicle panel number:</label>
+                                                <label>Amount paid:</label>
                                                 <input disabled="" type="text"
                                                        class="form-control m-input m-input--square"
-                                                       value="Vehicle panel number">
+                                                       value="amount paid">
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="form-group m-form__group mb-4">
-                                                <label>Manufacturing year:</label>
+                                                <label>Payment Date:</label>
                                                 <input disabled="" type="text"
                                                        class="form-control m-input m-input--square"
-                                                       value="manufacturing year">
+                                                       value="Payment Date">
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="form-group m-form__group mb-4">
-                                                <label>Number of seats:</label>
+                                                <label>Payment method:</label>
                                                 <input disabled="" type="text"
                                                        class="form-control m-input m-input--square"
-                                                       value="Number of seats">
+                                                       value="Payment method">
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="form-group m-form__group mb-4">
-                                                <label>vehicle color:</label>
+                                                <label>Reversion state:</label>
                                                 <input disabled="" type="text"
                                                        class="form-control m-input m-input--square"
-                                                       value="vehicle color">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group m-form__group mb-4">
-                                                <label>Insurance type:</label>
-                                                <input disabled="" type="text"
-                                                       class="form-control m-input m-input--square"
-                                                       value="Insurance type">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group m-form__group mb-4">
-                                                <label>state:</label>
-                                                <input disabled="" type="text"
-                                                       class="form-control m-input m-input--square"
-                                                       value="state">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group m-form__group mb-4">
-                                                <label class="d-block text-left">Vehicle valuation:</label>
-                                                <a href="#" data-toggle="modal" data-target="#m_modal_2" class="d-inline-block text-center no-hover">
-                                                    <div class="product-reviews-summary in-comment">
-                                                        <div class="rating-summary">
-                                                            <div class="rating-result" title="70%">
-                                                                <span style="width:70%"></span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-3">
-                                        <div class="col-12">
-                                            <div class="m-widget4 ">
-                                                <div class="m-widget4__item pl-5 pr-5 bg-light">
-                                                    <div class="m-widget4__img m-widget4__img--icon">
-                                                        <img src="assets/app/media/img/files/pdf.svg" alt="">
-                                                    </div>
-                                                    <div class="m-widget4__info">
-                                                        <span class="m-widget4__text">
-                                                            Identity
-                                                        </span>
-                                                    </div>
-                                                    <div class="m-widget4__ext">
-                                                        <a href="#" class="m-widget4__icon">
-                                                            <i class="la la-download"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="m-widget4 ">
-                                                <div class="m-widget4__item pl-5 pr-5 bg-light">
-                                                    <div class="m-widget4__img m-widget4__img--icon">
-                                                        <img src="assets/app/media/img/files/pdf.svg" alt="">
-                                                    </div>
-                                                    <div class="m-widget4__info">
-                                                        <span class="m-widget4__text">
-                                                            Driving license
-                                                        </span>
-                                                    </div>
-                                                    <div class="m-widget4__ext">
-                                                        <a href="#" class="m-widget4__icon">
-                                                            <i class="la la-download"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
+                                                       value="Reversion state">
                                             </div>
                                         </div>
                                     </div>
@@ -267,7 +201,6 @@
             </div>
         </div>
     </div>
-</div>
 
 <!-- end:: Body -->
 
@@ -285,28 +218,6 @@
 <!-- end::Scroll Top -->
 
 <!--begin::Modal-->
-<div class="modal fade" id="m_modal_5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
-    <div class="modal-dialog modal-sm" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Car activate</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>
-                    Are you sure you want to activate this Car?
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success">activate</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 <div class="modal fade" id="m_modal_6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
      aria-hidden="true">

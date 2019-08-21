@@ -459,3 +459,6 @@ table.table-bordered.dataTable th{
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
+.m-form .form-control-feedback{
+    font-size: 1rem;
+}

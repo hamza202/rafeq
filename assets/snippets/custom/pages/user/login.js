@@ -24,13 +24,7 @@ var SnippetLogin = function () {
                         email: {required: !0, email: !0},
                         password: {required: !0}
                     },
-                    messages: {
-                        email: {
-                            required: "هذا الحقل مطلوب",
-                            email: "الرجاء ادخال ايميل صحيح",
-                        },
-                        password: 'هذا الحقل مطلوب'
-                    }
+
                 })
             }), $("#m_login_signup_submit").click(function () {
                 var t = $(this), r = $(this).closest("form");
