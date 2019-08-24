@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>Rafeeq | Cities</title>
+    <title>Rafeeq | Holographic type</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -112,7 +112,7 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    Cities
+                                    Holographic type
                                 </h3>
                             </div>
                         </div>
@@ -120,7 +120,7 @@
                             <a href="#" data-toggle="modal" data-target="#m_modal_6" class="btn btn-success m-btn m-btn--icon m-btn--wide">
                                 <span>
                                     <i class="la la-plus"></i>
-                                    <span>New City</span>
+                                    <span>Add new holographic</span>
                                 </span>
                             </a>
                         </div>
@@ -133,8 +133,9 @@
                                 <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>City</th>
-                                    <th>Country</th>
+                                    <th>Holographic</th>
+                                    <th>Number of seats</th>
+                                    <th>Seat details</th>
                                     <th>Edit</th>
                                     <th>Delete</th>
                                 </tr>
@@ -142,8 +143,9 @@
                                 <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>City</td>
-                                    <td>Country </td>
+                                    <td>Holographic</td>
+                                    <td>Number of seats </td>
+                                    <td>Seat details</td>
                                     <td><a href="#" data-toggle="modal" data-target="#m_modal_5" class="btn btn-primary m-btn m-btn--icon m-btn--icon-only">
                                             <i class="fa fa-pencil-alt"></i>
                                         </a>
@@ -155,8 +157,9 @@
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>City</td>
-                                    <td>Country </td>
+                                    <td>Holographic</td>
+                                    <td>Number of seats </td>
+                                    <td>Seat details</td>
                                     <td><a href="#" data-toggle="modal" data-target="#m_modal_5" class="btn btn-primary m-btn m-btn--icon m-btn--icon-only">
                                             <i class="fa fa-pencil-alt"></i>
                                         </a>
@@ -169,8 +172,9 @@
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>City</td>
-                                    <td>Country </td>
+                                    <td>Holographic</td>
+                                    <td>Number of seats </td>
+                                    <td>Seat details</td>
                                     <td>
                                         <a href="#" data-toggle="modal" data-target="#m_modal_5" class="btn btn-primary m-btn m-btn--icon m-btn--icon-only">
                                             <i class="fa fa-pencil-alt"></i>
@@ -216,30 +220,28 @@
 
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Add new city</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Add new holographic</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <div class="form-group m-form__group row">
-                        <label class="col-form-label col-sm-12 pb-1">Select a country</label>
-                        <div class="col-sm-12">
-                            <select required class="form-control m-bootstrap-select m_selectpicker">
-                                <option>country 1</option>
-                                <option>country 2</option>
-                                <option>country 3</option>
-                            </select>
-                        </div>
+                    <div class="form-group m-form__group">
+                        <label for="exampleInputEmail1" class="pb-1 mb-0">Holographic Name</label>
+                        <input required type="text" class="form-control m-input m-input--square" id="city"  placeholder="Holographic Name">
                     </div>
                     <div class="form-group m-form__group">
-                        <label for="exampleInputEmail1" class="pb-1 mb-0">City name</label>
-                        <input required type="text" class="form-control m-input m-input--square" id="city"  placeholder="City name">
+                        <label for="exampleInputEmail1" class="pb-1 mb-0">Number of seats</label>
+                        <input required type="text" class="form-control m-input m-input--square" id="city"  placeholder="5">
+                    </div>
+                    <div class="form-group m-form__group">
+                        <label for="exampleInputEmail1" class="pb-1 mb-0">Seat details</label>
+                        <input required type="text" class="form-control m-input m-input--square" id="city"  placeholder="2-2-2-2">
                     </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Add</button>
                 </div>
             </div>
 
@@ -254,26 +256,25 @@
 
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Edit city name</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Edit holographic</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <div class="form-group m-form__group row">
-                        <label class="col-form-label col-sm-12 pb-1">Select a country</label>
-                        <div class="col-sm-12">
-                            <select required class="form-control m-bootstrap-select m_selectpicker">
-                                <option>country 1</option>
-                                <option>country 2</option>
-                                <option>country 3</option>
-                            </select>
-                        </div>
+                    <div class="form-group m-form__group">
+                        <label for="exampleInputEmail1" class="pb-1 mb-0">Holographic Name</label>
+                        <input required type="text" class="form-control m-input m-input--square" id="city"  placeholder="Holographic Name">
                     </div>
                     <div class="form-group m-form__group">
-                        <label for="exampleInputEmail1" class="pb-1 mb-0">City name</label>
-                        <input type="text" required value="city" class="form-control m-input m-input--square" id="city"  placeholder="City name">
+                        <label for="exampleInputEmail1" class="pb-1 mb-0">Number of seats</label>
+                        <input required type="text" class="form-control m-input m-input--square" id="city"  placeholder="5">
                     </div>
+                    <div class="form-group m-form__group">
+                        <label for="exampleInputEmail1" class="pb-1 mb-0">Seat details</label>
+                        <input required type="text" class="form-control m-input m-input--square" id="city"  placeholder="2-2-2-2">
+                    </div>
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -292,7 +293,7 @@
 
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Delete city</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Delete holographic</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -300,7 +301,7 @@
                 <div class="modal-body">
                     <div class="form-group m-form__group">
                         <p>
-                            are you want delete this city?
+                            are you want delete this holographic?
                         </p>
                     </div>
                 </div>

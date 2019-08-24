@@ -35,18 +35,18 @@
                 </a>
 
             </li>
-<!--            <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover">-->
-<!--                <a href="message.php" class="m-menu__link m-menu__toggle">-->
-<!--                    <i class="m-menu__link-icon flaticon-multimedia-2">-->
-<!--                    </i>-->
-<!--                    <span class="m-menu__link-title">-->
-<!--                        <span class="m-menu__link-wrap"> <span class="m-menu__link-text">Messages</span>-->
-<!--							<span class="m-menu__link-badge"><span class="m-badge m-badge--danger">5</span></span>-->
-<!--                        </span>-->
-<!--                    </span>-->
-<!--                </a>-->
-<!---->
-<!--            </li>-->
+            <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover">
+                <a href="message.php" class="m-menu__link m-menu__toggle">
+                    <i class="m-menu__link-icon flaticon-multimedia-2">
+                    </i>
+                    <span class="m-menu__link-title">
+                        <span class="m-menu__link-wrap"> <span class="m-menu__link-text">Messages</span>
+							<span class="m-menu__link-badge"><span class="m-badge m-badge--danger">5</span></span>
+                        </span>
+                    </span>
+                </a>
+
+            </li>
             <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
                 <a href="reservations.php" class="m-menu__link m-menu__toggle">
                     <i class="m-menu__link-icon fa fa-ban">
@@ -59,18 +59,18 @@
                     </i><span class="m-menu__link-text">Payments</span>
                 </a>
             </li>
-<!--            <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">-->
-<!--                <a href="users.php" class="m-menu__link m-menu__toggle">-->
-<!--                    <i class="m-menu__link-icon fa 	fa-clipboard-list">-->
-<!--                    </i><span class="m-menu__link-text">Drivers' requests</span>-->
-<!--                </a>-->
-<!--            </li>-->
-<!--            <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">-->
-<!--                <a href="users.php" class="m-menu__link m-menu__toggle">-->
-<!--                    <i class="m-menu__link-icon fab fa-fly">-->
-<!--                    </i><span class="m-menu__link-text">Trips</span>-->
-<!--                </a>-->
-<!--            </li>-->
+            <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
+                <a href="users.php" class="m-menu__link m-menu__toggle">
+                    <i class="m-menu__link-icon fa 	fa-clipboard-list">
+                    </i><span class="m-menu__link-text">Drivers' requests</span>
+                </a>
+            </li>
+            <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
+                <a href="users.php" class="m-menu__link m-menu__toggle">
+                    <i class="m-menu__link-icon fab fa-fly">
+                    </i><span class="m-menu__link-text">Trips</span>
+                </a>
+            </li>
             <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a
                         href="javascript:;" class="m-menu__link m-menu__toggle"><i
                             class="m-menu__link-icon flaticon-cogwheel-2
@@ -90,6 +90,41 @@
                                class="m-menu__link "><i
                                         class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
                                         class="m-menu__link-text">cities</span>
+                            </a>
+                        </li>
+                        <li class="m-menu__item " aria-haspopup="true">
+                            <a href="foreign-taxes.php"
+                               class="m-menu__link "><i
+                                        class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
+                                        class="m-menu__link-text">Foreign taxes</span>
+                            </a>
+                        </li>
+                        <li class="m-menu__item " aria-haspopup="true">
+                            <a href="internal-taxes.php"
+                               class="m-menu__link "><i
+                                        class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
+                                        class="m-menu__link-text">Internal taxes</span>
+                            </a>
+                        </li>
+                        <li class="m-menu__item " aria-haspopup="true">
+                            <a href="memberships.php"
+                               class="m-menu__link "><i
+                                        class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
+                                        class="m-menu__link-text">Memberships</span>
+                            </a>
+                        </li>
+                        <li class="m-menu__item " aria-haspopup="true">
+                            <a href="basic-data.php"
+                               class="m-menu__link "><i
+                                        class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
+                                        class="m-menu__link-text">Vehicles - Basic data</span>
+                            </a>
+                        </li>
+                        <li class="m-menu__item " aria-haspopup="true">
+                            <a href="holographic-type.php"
+                               class="m-menu__link "><i
+                                        class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
+                                        class="m-menu__link-text">Holographic type</span>
                             </a>
                         </li>
                     </ul>
