@@ -60,15 +60,15 @@
                 </a>
             </li>
             <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
-                <a href="users.php" class="m-menu__link m-menu__toggle">
-                    <i class="m-menu__link-icon fa 	fa-clipboard-list">
-                    </i><span class="m-menu__link-text">Drivers' requests</span>
+                <a href="trips.php" class="m-menu__link m-menu__toggle">
+                    <i class="m-menu__link-icon fab fa-fly">
+                    </i><span class="m-menu__link-text">Trips</span>
                 </a>
             </li>
             <li class="m-menu__item  m-menu__item--submenu jus" aria-haspopup="true" m-menu-submenu-toggle="hover">
-                <a href="users.php" class="m-menu__link m-menu__toggle">
-                    <i class="m-menu__link-icon fab fa-fly">
-                    </i><span class="m-menu__link-text">Trips</span>
+                <a href="conversation.php" class="m-menu__link m-menu__toggle">
+                    <i class="m-menu__link-icon far fa-comments">
+                    </i><span class="m-menu__link-text">Conversations</span>
                 </a>
             </li>
             <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a
@@ -125,6 +125,13 @@
                                class="m-menu__link "><i
                                         class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
                                         class="m-menu__link-text">Holographic type</span>
+                            </a>
+                        </li>
+                        <li class="m-menu__item " aria-haspopup="true">
+                            <a href="vehicle-models.php"
+                               class="m-menu__link "><i
+                                        class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
+                                        class="m-menu__link-text">Vehicle models</span>
                             </a>
                         </li>
                     </ul>

@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>Rafeeq | Driver Trips</title>
+    <title>Rafeeq | All Conversation</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -114,7 +114,7 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    Driver Trips
+                                    All conversation
                                 </h3>
                             </div>
                         </div>
@@ -126,61 +126,45 @@
                                    id="m_table_1">
                                 <thead>
                                 <tr>
-                                    <th>trip number</th>
-                                    <th>from</th>
-                                    <th>to</th>
-                                    <th>total price</th>
-                                    <th>passengers numer</th>
-                                    <th>date</th>
-                                    <th>timing</th>
-                                    <th>state</th>
+                                    <th>ID</th>
+                                    <th>Driver</th>
+                                    <th>Passenger </th>
+                                    <th>Date</th>
                                     <th>details</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td>trip number</td>
-                                    <td>from</td>
-                                    <td>to</td>
-                                    <td>total price</td>
-                                    <td>5</td>
-                                    <td>date</td>
-                                    <td>timing</td>
-                                    <td><span class="m-badge  m-badge--success m-badge--wide">done</span></td>
-                                    <td>
-                                        <a href="driver-tours-details.php"
+                                    <td>2</td>
+                                    <td>Driver</td>
+                                    <td>Passenger</td>
+                                    <td>Date</td>
+                                   <td>
+                                        <a href="conversation-details.php"
                                            class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
                                             <i class="far fa-eye"></i>
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>trip number</td>
-                                    <td>from</td>
-                                    <td>to</td>
-                                    <td>total price</td>
-                                    <td>4</td>
-                                    <td>date</td>
-                                    <td>timing</td>
-                                    <td><span class="m-badge  m-badge--danger m-badge--wide">Canceled</span></td>
+                                    <td>3</td>
+                                    <td>Driver</td>
+                                    <td>Passenger</td>
+                                    <td>Date</td>
                                     <td>
-                                        <a href="driver-tours-details.php"
+                                        <a href="conversation-details.php"
                                            class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
                                             <i class="far fa-eye"></i>
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>trip number</td>
-                                    <td>from</td>
-                                    <td>to</td>
-                                    <td>total price</td>
-                                    <td>7</td>
-                                    <td>date</td>
-                                    <td>timing</td>
-                                    <td><span class="m-badge  m-badge--warning m-badge--wide">Underway</span></td>
+                                    <td>1</td>
+                                    <td>Driver</td>
+                                    <td>Passenger</td>
+                                    <td>Date</td>
                                     <td>
-                                        <a href="driver-tours-details.php"
+                                        <a href="conversation-details.php"
                                            class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
                                             <i class="far fa-eye"></i>
                                         </a>
