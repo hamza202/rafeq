@@ -472,3 +472,36 @@ table.table-bordered.dataTable th{
 .m-form .form-control-feedback{
     font-size: 1rem;
 }
+.tour-d-box-title{
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 10px ;
+
+}
+.tour-d-box-title h4{
+    margin: 0;
+
+}
+.start-point{
+    background-color: #66cb3c;
+    color: white;
+}
+.end-point{
+    background-color: #4a91d7;
+    color: white;
+}
+.my-accordion .m-accordion__item-title{
+    font-weight: 500;
+}
+.info-gry-card{
+    background-color: #969696;
+    text-align: center;
+    color: #fff;
+    text-transform: none;
+}
+.info-brouwn-card{
+    background-color: #8F5B12;
+    text-align: center;
+    color: #fff;
+    text-transform: none;
+}

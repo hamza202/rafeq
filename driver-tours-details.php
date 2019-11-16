@@ -23,12 +23,12 @@
     <!--end::Web font -->
 
     <!--begin::Global Theme Styles -->
-    <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css"/>
 
-<!--    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
-    <link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />
+    <!--    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
+    <link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css"/>
 
-<!--    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
+    <!--    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
 
     <!--end::Global Theme Styles -->
 
@@ -201,7 +201,9 @@
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
                                                         <label class="d-block text-left">Passenger names:</label>
-                                                        <a href="#m_modal_3" data-toggle="modal" data-target="#m_modal_3" class="btn btn-info m-btn  w-100 m-btn--custom m-btn--icon">
+                                                        <a href="#m_modal_3" data-toggle="modal"
+                                                           data-target="#m_modal_3"
+                                                           class="btn btn-info m-btn  w-100 m-btn--custom m-btn--icon">
                                                         <span>
                                                             <i class="fa fa-users"></i>
                                                             <span>Passenger names</span>
@@ -243,6 +245,825 @@
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="m-accordion m-accordion--bordered p-4 my-accordion"
+                                                         id="m_accordion_2" role="tablist">
+
+                                                        <!--begin::Item-->
+                                                        <div class="m-accordion__item">
+                                                            <div class="m-accordion__item-head collapsed" role="tab"
+                                                                 id="m_accordion_2_item_1_head" data-toggle="collapse"
+                                                                 href="#m_accordion_2_item_1_body"
+                                                                 aria-expanded="    false">
+                                                                <span class="m-accordion__item-title">First Path</span>
+                                                                <span class="m-accordion__item-mode"></span>
+                                                            </div>
+                                                            <div class="m-accordion__item-body collapse"
+                                                                 id="m_accordion_2_item_1_body" role="tabpanel"
+                                                                 aria-labelledby="m_accordion_2_item_1_head"
+                                                                 data-parent="#m_accordion_2">
+                                                                <div class="m-accordion__item-content">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-6">
+                                                                            <div class="border text-center start-point tour-d-box-title">
+                                                                                <h4>starting point info</h4>
+                                                                            </div>
+                                                                            <div class="row mt-3">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Country:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="Country">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">City:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="City">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Street:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="Street">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Starting
+                                                                                            date:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="10/11/2019">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Ending
+                                                                                            date:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="10/11/2019">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-6">
+                                                                            <div class="border text-center end-point tour-d-box-title mt-4 mt-lg-0">
+                                                                                <h4>Ending point info</h4>
+                                                                            </div>
+                                                                            <div class="row mt-3">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Country:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="Country">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">City:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="City">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Street:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="Street">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Starting
+                                                                                            date:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="10/11/2019">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Ending
+                                                                                            date:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="10/11/2019">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-lg-12 mt-4">
+                                                                            <div class="info-gry-card tour-d-box-title mb-3">
+                                                                                <h4>Number of Seats</h4>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Reserved
+                                                                                            seats:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="15">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Available
+                                                                                            seats:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="15">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row mt-4">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="info-brouwn-card tour-d-box-title mb-3">
+                                                                                        <h4>Driver prices</h4>
+                                                                                    </div>
+                                                                                    <div class="form-group m-form__group mb-3 p-0 row">
+                                                                                        <div class="col-12">
+                                                                                            <label class="m-0">Normal
+                                                                                                seat price:</label>
+                                                                                        </div>
+                                                                                        <div class="col pr-0">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">SAR</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="50"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col pl-1">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">$</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="10"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="form-group m-form__group mb-3 p-0 row">
+                                                                                        <div class="col-12">
+                                                                                            <label class="m-0">Special
+                                                                                                seat price:</label>
+                                                                                        </div>
+                                                                                        <div class="col pr-0">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">SAR</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="100"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col pl-1">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">$</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="30"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="info-brouwn-card tour-d-box-title mb-3">
+                                                                                        <h4>Passenger prices</h4>
+                                                                                    </div>
+                                                                                    <div class="form-group m-form__group mb-3 p-0 row">
+                                                                                        <div class="col-12">
+                                                                                            <label class="m-0">Normal
+                                                                                                seat price:</label>
+                                                                                        </div>
+                                                                                        <div class="col pr-0">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">SAR</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="50"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col pl-1">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">$</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="10"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="form-group m-form__group mb-3 p-0 row">
+                                                                                        <div class="col-12">
+                                                                                            <label class="m-0">Special
+                                                                                                seat price:</label>
+                                                                                        </div>
+                                                                                        <div class="col pr-0">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">SAR</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="100"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col pl-1">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">$</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="30"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!--end::Item-->
+
+                                                        <!--begin::Item-->
+                                                        <div class="m-accordion__item">
+                                                            <div class="m-accordion__item-head collapsed" role="tab"
+                                                                 id="m_accordion_2_item_2_head" data-toggle="collapse"
+                                                                 href="#m_accordion_2_item_2_body"
+                                                                 aria-expanded="    false">
+                                                                <span class="m-accordion__item-title">Second Path</span>
+                                                                <span class="m-accordion__item-mode"></span>
+                                                            </div>
+                                                            <div class="m-accordion__item-body collapse"
+                                                                 id="m_accordion_2_item_2_body" role="tabpanel"
+                                                                 aria-labelledby="m_accordion_2_item_2_head"
+                                                                 data-parent="#m_accordion_2">
+                                                                <div class="m-accordion__item-content">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-6">
+                                                                            <div class="border text-center start-point tour-d-box-title">
+                                                                                <h4>starting point info</h4>
+                                                                            </div>
+                                                                            <div class="row mt-3">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Country:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="Country">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">City:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="City">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Street:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="Street">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Starting
+                                                                                            date:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="10/11/2019">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Ending
+                                                                                            date:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="10/11/2019">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-6">
+                                                                            <div class="border text-center end-point tour-d-box-title mt-4 mt-lg-0">
+                                                                                <h4>Ending point info</h4>
+                                                                            </div>
+                                                                            <div class="row mt-3">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Country:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="Country">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">City:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="City">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Street:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="Street">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Starting
+                                                                                            date:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="10/11/2019">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Ending
+                                                                                            date:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="10/11/2019">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-lg-12 mt-4">
+                                                                            <div class="info-gry-card tour-d-box-title mb-3">
+                                                                                <h4>Number of Seats</h4>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Reserved
+                                                                                            seats:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="15">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Available
+                                                                                            seats:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="15">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row mt-4">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="info-brouwn-card tour-d-box-title mb-3">
+                                                                                        <h4>Driver prices</h4>
+                                                                                    </div>
+                                                                                    <div class="form-group m-form__group mb-3 p-0 row">
+                                                                                        <div class="col-12">
+                                                                                            <label class="m-0">Normal
+                                                                                                seat price:</label>
+                                                                                        </div>
+                                                                                        <div class="col pr-0">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">SAR</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="50"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col pl-1">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">$</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="10"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="form-group m-form__group mb-3 p-0 row">
+                                                                                        <div class="col-12">
+                                                                                            <label class="m-0">Special
+                                                                                                seat price:</label>
+                                                                                        </div>
+                                                                                        <div class="col pr-0">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">SAR</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="100"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col pl-1">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">$</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="30"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="info-brouwn-card tour-d-box-title mb-3">
+                                                                                        <h4>Passenger prices</h4>
+                                                                                    </div>
+                                                                                    <div class="form-group m-form__group mb-3 p-0 row">
+                                                                                        <div class="col-12">
+                                                                                            <label class="m-0">Normal
+                                                                                                seat price:</label>
+                                                                                        </div>
+                                                                                        <div class="col pr-0">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">SAR</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="50"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col pl-1">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">$</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="10"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="form-group m-form__group mb-3 p-0 row">
+                                                                                        <div class="col-12">
+                                                                                            <label class="m-0">Special
+                                                                                                seat price:</label>
+                                                                                        </div>
+                                                                                        <div class="col pr-0">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">SAR</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="100"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col pl-1">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">$</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="30"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!--end::Item-->
+
+                                                        <!--begin::Item-->
+                                                        <div class="m-accordion__item">
+                                                            <div class="m-accordion__item-head collapsed" role="tab"
+                                                                 id="m_accordion_2_item_3_head" data-toggle="collapse"
+                                                                 href="#m_accordion_2_item_3_body"
+                                                                 aria-expanded="false">
+                                                                <span class="m-accordion__item-title">Third Path</span>
+                                                                <span class="m-accordion__item-mode"></span>
+                                                            </div>
+                                                            <div class="m-accordion__item-body collapse"
+                                                                 id="m_accordion_2_item_3_body" role="tabpanel"
+                                                                 aria-labelledby="m_accordion_2_item_3_head"
+                                                                 data-parent="#m_accordion_2">
+                                                                <div class="m-accordion__item-content">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-6">
+                                                                            <div class="border text-center start-point tour-d-box-title">
+                                                                                <h4>starting point info</h4>
+                                                                            </div>
+                                                                            <div class="row mt-3">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Country:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="Country">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">City:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="City">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Street:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="Street">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Starting
+                                                                                            date:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="10/11/2019">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Ending
+                                                                                            date:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="10/11/2019">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-6">
+                                                                            <div class="border text-center end-point tour-d-box-title mt-4 mt-lg-0">
+                                                                                <h4>Ending point info</h4>
+                                                                            </div>
+                                                                            <div class="row mt-3">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Country:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="Country">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">City:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="City">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Street:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="Street">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Starting
+                                                                                            date:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="10/11/2019">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Ending
+                                                                                            date:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="10/11/2019">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-lg-12 mt-4">
+                                                                            <div class="info-gry-card tour-d-box-title mb-3">
+                                                                                <h4>Number of Seats</h4>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Reserved
+                                                                                            seats:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="15">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <div class="form-group m-form__group mb-3 p-0">
+                                                                                        <label class="m-0">Available
+                                                                                            seats:</label>
+                                                                                        <input disabled="" type="text"
+                                                                                               class="form-control m-input m-input--square"
+                                                                                               value="15">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row mt-4">
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="info-brouwn-card tour-d-box-title mb-3">
+                                                                                        <h4>Driver prices</h4>
+                                                                                    </div>
+                                                                                    <div class="form-group m-form__group mb-3 p-0 row">
+                                                                                        <div class="col-12">
+                                                                                            <label class="m-0">Normal
+                                                                                                seat price:</label>
+                                                                                        </div>
+                                                                                        <div class="col pr-0">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">SAR</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="50"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col pl-1">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">$</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="10"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="form-group m-form__group mb-3 p-0 row">
+                                                                                        <div class="col-12">
+                                                                                            <label class="m-0">Special
+                                                                                                seat price:</label>
+                                                                                        </div>
+                                                                                        <div class="col pr-0">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">SAR</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="100"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col pl-1">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">$</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="30"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-lg-6">
+                                                                                    <div class="info-brouwn-card tour-d-box-title mb-3">
+                                                                                        <h4>Passenger prices</h4>
+                                                                                    </div>
+                                                                                    <div class="form-group m-form__group mb-3 p-0 row">
+                                                                                        <div class="col-12">
+                                                                                            <label class="m-0">Normal
+                                                                                                seat price:</label>
+                                                                                        </div>
+                                                                                        <div class="col pr-0">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">SAR</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="50"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col pl-1">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">$</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="10"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="form-group m-form__group mb-3 p-0 row">
+                                                                                        <div class="col-12">
+                                                                                            <label class="m-0">Special
+                                                                                                seat price:</label>
+                                                                                        </div>
+                                                                                        <div class="col pr-0">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">SAR</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="100"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col pl-1">
+                                                                                            <div class="input-group m-input-group">
+                                                                                                <div class="input-group-prepend">
+                                                                                                    <span class="input-group-text">$</span>
+                                                                                                </div>
+                                                                                                <input type="text"
+                                                                                                       value="30"
+                                                                                                       class="form-control m-input border-left"
+                                                                                                       disabled>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!--end::Item-->
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                             <div class="form-group m-form__group ">
                                                 <div id="map"></div>
                                             </div>
@@ -274,7 +1095,8 @@
 <!-- end::Scroll Top -->
 
 <!--begin::Modal-->
-<div class="modal fade" id="m_modal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="m_modal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -378,7 +1200,7 @@
             var marker = new google.maps.Marker({
                 position: {lat: beach[1], lng: beach[2]},
                 map: map,
-                icon: './assets/images/'+ beach[0]+'.png',
+                icon: './assets/images/' + beach[0] + '.png',
                 // shape: shape,
                 // zIndex: beach[3]
             });
