@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>Rafeeq | User Profile  </title>
+    <title>Rafeeq | User Profile </title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -23,12 +23,12 @@
     <!--end::Web font -->
 
     <!--begin::Global Theme Styles -->
-    <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css"/>
 
-<!--    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
-    <link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />
+    <!--    <link href="assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
+    <link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css"/>
 
-<!--    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
+    <!--    <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>-->
 
     <!--end::Global Theme Styles -->
 
@@ -374,7 +374,8 @@
                 </div>
                 <div class="modal-body">
                     <div class="form-group m-form__group">
-                        <textarea class="form-control m-input" placeholder="Enter the text of the message" rows="3"></textarea>
+                        <textarea class="form-control m-input" placeholder="Enter the text of the message"
+                                  rows="3"></textarea>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -387,7 +388,7 @@
 </div>
 <div class="modal fade" id="m_modal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
      aria-hidden="true">
-    <div class="modal-dialog modal-md" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel1">Evaluation Details</h5>
@@ -396,71 +397,107 @@
                 </button>
             </div>
             <div class="modal-body">
-
-                <div class="row mb-3">
-                    <div class="col-lg-2">
-                        <p class="m-0">Wonderful:</p>
-                    </div>
-                    <div class="col-lg-10">
-                        <div class="progress">
-                            <div class="progress-bar bg-success" role="progressbar" style="width: 60%"
-                                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                                150
-                            </div>
+                <div class="evaluation-card">
+                    <div class="media align-items-center">
+                        <img class="mr-3" src="assets/images/user.png" alt="Generic placeholder image">
+                        <div class="media-body">
+                            <h5 class="mt-0">Hamza abo aitah</h5>
+                            <p class="m-0">
+                                رحلة مكة - الطائف 15.08.2018
+                            </p>
                         </div>
                     </div>
+                    <div class="border-bottom pt-3"></div>
+                    <div class="row align-items-center mt-3">
+                        <div class="col">
+                            <div class="product-reviews-summary in-comment m-0">
+                                <div class="rating-summary">
+                                    <div class="rating-result" title="70%">
+                                        <span style="width:70%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <p class="mb-0">
+                                17.08.2019
+                            </p>
+                        </div>
+                    </div>
+                    <div class="border-bottom pt-3"></div>
+                    <p class="mt-3 text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto, at beatae
+                        consectetur fuga ipsum maiores obcaecati optio praesentium, qui repellat saepe soluta voluptas?
+                        Dolorum exercitationem itaque necessitatibus nisi sequi.
+                    </p>
                 </div>
-                <div class="row mb-3">
-                    <div class="col-lg-2">
-                        <p class="m-0">Excellent:</p>
-                    </div>
-                    <div class="col-lg-10">
-                        <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" style="width: 40%"
-                                 aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
-                                120
-                            </div>
+                <div class="evaluation-card">
+                    <div class="media align-items-center">
+                        <img class="mr-3" src="assets/images/user.png" alt="Generic placeholder image">
+                        <div class="media-body">
+                            <h5 class="mt-0">Hamza abo aitah</h5>
+                            <p class="m-0">
+                                رحلة مكة - الطائف 15.08.2018
+                            </p>
                         </div>
                     </div>
+                    <div class="border-bottom pt-3"></div>
+                    <div class="row align-items-center mt-3">
+                        <div class="col">
+                            <div class="product-reviews-summary in-comment m-0">
+                                <div class="rating-summary">
+                                    <div class="rating-result" title="70%">
+                                        <span style="width:70%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <p class="mb-0">
+                                17.08.2019
+                            </p>
+                        </div>
+                    </div>
+                    <div class="border-bottom pt-3"></div>
+                    <p class="mt-3 text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto, at beatae
+                        consectetur fuga ipsum maiores obcaecati optio praesentium, qui repellat saepe soluta voluptas?
+                        Dolorum exercitationem itaque necessitatibus nisi sequi.
+                    </p>
                 </div>
-                <div class="row mb-3">
-                    <div class="col-lg-2">
-                        <p class="m-0">good:</p>
-                    </div>
-                    <div class="col-lg-10">
-                        <div class="progress">
-                            <div class="progress-bar bg-brand" role="progressbar" style="width: 30%"
-                                 aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                                90
-                            </div>
+                <div class="evaluation-card">
+                    <div class="media align-items-center">
+                        <img class="mr-3" src="assets/images/user.png" alt="Generic placeholder image">
+                        <div class="media-body">
+                            <h5 class="mt-0">Hamza abo aitah</h5>
+                            <p class="m-0">
+                                رحلة مكة - الطائف 15.08.2018
+                            </p>
                         </div>
                     </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-lg-2">
-                        <p class="m-0">Acceptable:</p>
-                    </div>
-                    <div class="col-lg-10">
-                        <div class="progress">
-                            <div class="progress-bar bg-warning" role="progressbar" style="width: 20%"
-                                 aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                70
+                    <div class="border-bottom pt-3"></div>
+                    <div class="row align-items-center mt-3">
+                        <div class="col">
+                            <div class="product-reviews-summary in-comment m-0">
+                                <div class="rating-summary">
+                                    <div class="rating-result" title="70%">
+                                        <span style="width:70%"></span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-lg-2">
-                        <p class="m-0">Weak:</p>
-                    </div>
-                    <div class="col-lg-10">
-                        <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 10%"
-                                 aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
-                                20
-                            </div>
+                        <div class="col-auto">
+                            <p class="mb-0">
+                                17.08.2019
+                            </p>
                         </div>
                     </div>
+                    <div class="border-bottom pt-3"></div>
+                    <p class="mt-3 text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto, at beatae
+                        consectetur fuga ipsum maiores obcaecati optio praesentium, qui repellat saepe soluta voluptas?
+                        Dolorum exercitationem itaque necessitatibus nisi sequi.
+                    </p>
                 </div>
             </div>
             <div class="modal-footer">

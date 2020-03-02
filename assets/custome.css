@@ -505,3 +505,26 @@ table.table-bordered.dataTable th{
     color: #fff;
     text-transform: none;
 }
+.evaluation-card{
+    padding: 10px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    margin-bottom: 25px;
+}
+.evaluation-card .media img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 3px;
+    border: 1px solid #D7AA4A;
+}
+.evaluation-card .media h5{
+    color: #D7AA4A;
+}
+.evaluation-card p{
+    font-size: 16px;
+    font-weight: 400;
+}

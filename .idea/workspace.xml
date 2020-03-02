@@ -4,9 +4,9 @@
     <list default="true" id="7a00ccdf-09b9-4b43-adfc-278081719acb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/custome.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/custome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver-tours-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/driver-tours-details.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/driver-profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/user-profile.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,74 +17,32 @@
       <executable />
     </execution>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>الركا</find>
-      <find>ارجاع</find>
-      <find>نص الرسالة</find>
-      <find>تعطيل</find>
-      <find>m-badge  m-badge--warning m-badge--wide</find>
-      <find>Reservations confirmed</find>
-      <find>مفعل</find>
-      <find>head-h-0</find>
-      <find>Driver Tours</find>
-      <find>Driver Trips</find>
-      <find>payments.php</find>
-      <find>Fuel typeInsurance type</find>
-      <find>Account activate</find>
-      <find>m_modal_2</find>
-      <find>Fuel type</find>
-      <find>m_tabs_6_2</find>
-      <find>m_user_profile_tab_3</find>
-      <find>.dataTables_wrapper .dataTable .dropdown-menu</find>
-      <find>m-portlet__body</find>
-      <find>validate</find>
-      <find>Passenger evaluation :</find>
-      <find>edi</find>
-      <find>edit</find>
-      <find>trip</find>
-      <find>mess</find>
-      <find>bootstrap-select</find>
-      <find>dri</find>
-      <find>m-messenger__message m-messenger__message--out</find>
-      <find>assets/app/media/img/bg/bg-4.jpg</find>
-      <find>overly</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>assets</replace>
-      <replace>user-profile.php</replace>
-      <replace>driver-tours-details.php</replace>
-      <replace>details</replace>
-      <replace>trip</replace>
-      <replace>Reversion</replace>
-      <replace>Sending Time</replace>
-      <replace>Disable</replace>
-      <replace>Closed</replace>
-      <replace>Enabled</replace>
-      <replace>Driver Trips</replace>
-      <replace>driver-payments.php</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TQWb6DPPayv0yev1jA0RYTmq8W" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -142,6 +100,7 @@
       <workItem from="1567944963933" duration="3000" />
       <workItem from="1573392878874" duration="1371000" />
       <workItem from="1573907243499" duration="9072000" />
+      <workItem from="1583148509855" duration="3326000" />
     </task>
     <servers />
   </component>
