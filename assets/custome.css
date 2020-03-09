@@ -528,3 +528,24 @@ table.table-bordered.dataTable th{
     font-size: 16px;
     font-weight: 400;
 }
+/*new one*/
+#chartdiv, #chartdiv1, #chartdiv2,#m_chart_revenue_change{
+    height: 350px;
+    width: 100%;
+}
+#chartdiv3{
+    height: 350px;
+}
+.best-provider-table img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #8F5B12;
+}
+.m-table.m-table--head-bg-brand thead th{
+    background: #8F5B12;
+}
+#m_chart_revenue_change text{
+    font-family: Tajawal , 'sans-serif'  !important;
+}
