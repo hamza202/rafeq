@@ -134,7 +134,49 @@
                 <div class="m-portlet pb-3 pt-3 my-statistics">
                     <div class="m-portlet__body  m-portlet__body--no-padding">
                         <div class="row m-row--no-padding m-row--col-separator-xl">
+                            <div class="col-lg-6 col-xl-6">
+                                <!--begin::Total Profit-->
+                                <div class="m-widget24">
+                                    <div class="m-widget24__item">
+                                        <h4 class="m-widget24__title">
+                                            Passengers
+                                        </h4><br>
+                                        <span class="m-widget24__stats m--font-brand">
+													1411
+												</span>
+                                        <div class="m--space-10"></div>
+                                        <div class="progress m-progress--sm">
+                                            <div class="progress-bar m--bg-brand" role="progressbar"
+                                                 style="width: 100%;" aria-valuenow="50" aria-valuemin="0"
+                                                 aria-valuemax="100"></div>
+                                        </div>
 
+                                    </div>
+                                </div>
+
+                                <!--end::Total Profit-->
+                            </div>
+                            <div class="col-lg-6 col-xl-6">
+                                <!--begin::New Feedbacks-->
+                                <div class="m-widget24">
+                                    <div class="m-widget24__item">
+                                        <h4 class="m-widget24__title">
+                                            Drivers
+                                        </h4><br>
+                                        <span class="m-widget24__stats m--font-info">
+													1349
+												</span>
+                                        <div class="m--space-10"></div>
+                                        <div class="progress m-progress--sm">
+                                            <div class="progress-bar m--bg-info" role="progressbar" style="width: 100%;"
+                                                 aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <!--end::New Feedbacks-->
+                            </div>
                             <div class="col-lg-6 col-xl-4">
                                 <!--begin::New Orders-->
                                 <div class="m-widget24">
@@ -201,49 +243,7 @@
 
                                 <!--end::New Users-->
                             </div>
-                            <div class="col-lg-6 col-xl-6">
-                                <!--begin::Total Profit-->
-                                <div class="m-widget24">
-                                    <div class="m-widget24__item">
-                                        <h4 class="m-widget24__title">
-                                            Passengers
-                                        </h4><br>
-                                        <span class="m-widget24__stats m--font-brand">
-													1411
-												</span>
-                                        <div class="m--space-10"></div>
-                                        <div class="progress m-progress--sm">
-                                            <div class="progress-bar m--bg-brand" role="progressbar"
-                                                 style="width: 100%;" aria-valuenow="50" aria-valuemin="0"
-                                                 aria-valuemax="100"></div>
-                                        </div>
 
-                                    </div>
-                                </div>
-
-                                <!--end::Total Profit-->
-                            </div>
-                            <div class="col-lg-6 col-xl-6">
-                                <!--begin::New Feedbacks-->
-                                <div class="m-widget24">
-                                    <div class="m-widget24__item">
-                                        <h4 class="m-widget24__title">
-                                            Drivers
-                                        </h4><br>
-                                        <span class="m-widget24__stats m--font-info">
-													1349
-												</span>
-                                        <div class="m--space-10"></div>
-                                        <div class="progress m-progress--sm">
-                                            <div class="progress-bar m--bg-info" role="progressbar" style="width: 100%;"
-                                                 aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <!--end::New Feedbacks-->
-                            </div>
                         </div>
                     </div>
                 </div>
